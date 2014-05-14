@@ -8,6 +8,10 @@ var horPower: float;
 var robot : Transform;
 var gun : Transform;
 var anim : Animator;
+var boom:boolean = true;
+var renderers:MeshRenderer[];
+var totalpoints:int;
+
 function OnCollisionEnter(c:Collision)
 {
 	if(c.gameObject.tag == "platform")
@@ -25,19 +29,17 @@ function OnCollisionExit(c:Collision)
 }
 
 function Update () {
-	
+
 	horPower = Input.GetAxis("Horizontal");
 		if(horPower != 0f)
 		{	
 			if(horPower < 0)
 			{
 				robot.localScale.x = -1;
-				gun.localScale.x = -1;
 			}
 			else if(horPower > 0)
 			{
 				robot.localScale.x = 1;
-				gun.localScale.x = 1;
 			}
 		
 			anim.SetBool("walk", true);
@@ -89,4 +91,29 @@ function ReduceHealth(damageplayer:int)
 	{
 		GameObject.Destroy(this.gameObject);
 	}
+}
+
+function hit() 
+{
+	StartCoroutine(flash());
+}
+
+function flash()
+{	
+	for(var i=0; i<8; i++)
+	{
+	boom = !boom;
+	Debug.Log(boom + " " + i);
+	for(var r:MeshRenderer in renderers)
+	{
+		
+		r.enabled = boom;
+	}
+	yield WaitForSeconds(0.1);
+	}
+}
+
+function ReceivePoints(points:int)
+{
+	totalpoints = totalpoints + points;
 }

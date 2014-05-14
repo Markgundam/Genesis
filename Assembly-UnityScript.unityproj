@@ -51,11 +51,10 @@
      <Compile Include="Assets\Scripts\Charactercontroller.js" />
      <Compile Include="Assets\Scripts\DetectScript.js" />
      <Compile Include="Assets\Scripts\Enemy.js" />
-     <Compile Include="Assets\Scripts\EnemyGunController.js" />
      <Compile Include="Assets\Scripts\GameObjectController.js" />
      <Compile Include="Assets\Scripts\Guncontroller.js" />
-     <Compile Include="Assets\Scripts\LaserController.js" />
-     <Compile Include="Assets\Scripts\RobotController.js" />
+     <Compile Include="Assets\Scripts\LaserControllerENEMY.js" />
+     <Compile Include="Assets\Scripts\LaserControllerPLAYER.js" />
      <Compile Include="Assets\Scripts\Shoot.js" />
      <Compile Include="Assets\Scripts\SightScript.js" />
      <Compile Include="Assets\Scripts\TurretEnemy.js" />

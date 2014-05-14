@@ -47,7 +47,7 @@ function Update () {
 			}else{
 				x = Instantiate (laser, this.transform.position, this.transform.rotation);
 			}
-			var laser:LaserController = x.GetComponent(LaserController); //Get the LaserController Component (Script)
+			var laser:LaserControllerPLAYER = x.GetComponent(LaserControllerPLAYER); //Get the LaserController Component (Script)
 			damage = damage + chargedmg; //Add laser damage + charge
 			chargedmg = 0f; //Reset Charge
 			reloadLeft = reloadTime; //Set the reload timer

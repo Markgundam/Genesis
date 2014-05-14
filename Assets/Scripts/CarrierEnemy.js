@@ -6,6 +6,7 @@ var detect : DetectScript;
 var sight : SightScript;
 var moving : boolean = false;
 var target : Transform; //Through inspector
+var turret : Transform;
 
 var smoothTime = 0.5f;
 var xOffset : float = 0.2f;
@@ -16,32 +17,45 @@ var thisTransform : Transform;
 var anim:Animator;
 
 function Start () {
+
     thisTransform = transform;
     shoot = false;
     yield StartCoroutine("shootEveryFewSeconds");
 }
 
 function Update () {
+
+	rigidbody.AddForce(Vector3(0,-50,0));
 	
 	if(detect.detected)
 	{
 		shoot = true;
-	
+		
 		if(!sight.sighted)
 		{
-		moving = true;
+			moving = true;
 			anim.SetBool("move", true);
+
 	        thisTransform.position.x = Mathf.Lerp( thisTransform.position.x, target.position.x - xOffset, Time.deltaTime * smoothTime);
 	 		thisTransform.position.y = Mathf.Lerp( thisTransform.position.y, target.position.y + yOffset, Time.deltaTime * smoothTime);
 		}
+		else
+		{
+		moving = false;
+		anim.SetBool("move",false);
+		}
 		
-	}else{
-	if(moving)
+	}
+	
+	if(this.transform.localScale.x == 1)
 	{
-	moving = !moving;
-	anim.SetBool("move", moving);
+		turret.transform.rotation = Quaternion.Euler(0,0,285);
 	}
+	if(this.transform.localScale.x == -1)
+	{
+		turret.transform.rotation = Quaternion.Euler(0,0, 86);
 	}
+
 }
 
 function shootEveryFewSeconds()
@@ -50,7 +64,7 @@ function shootEveryFewSeconds()
 	{
 		if (shoot == true)
 		{
-		Instantiate (laser, gameObject.FindGameObjectWithTag("Enemyturret").transform.position, gameObject.FindGameObjectWithTag("Enemyturret").transform.rotation);
+		Instantiate (laser, turret.transform.position, turret.transform.rotation);
 		yield WaitForSeconds (1);
 		shoot = false;
 		}

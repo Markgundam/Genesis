@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{411F3239-FFBE-FD44-EBD0-8AC9EAEC6489}") = "Genesis", "Assembly-UnityScript-firstpass.unityproj", "{154CD3C3-8DCC-EBF6-AEB9-CA5EC86D55A7}"
+EndProject
 Project("{411F3239-FFBE-FD44-EBD0-8AC9EAEC6489}") = "Genesis", "Assembly-UnityScript.unityproj", "{1118D5B8-F964-31FB-4650-BCD11F72702A}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{154CD3C3-8DCC-EBF6-AEB9-CA5EC86D55A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154CD3C3-8DCC-EBF6-AEB9-CA5EC86D55A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154CD3C3-8DCC-EBF6-AEB9-CA5EC86D55A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154CD3C3-8DCC-EBF6-AEB9-CA5EC86D55A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1118D5B8-F964-31FB-4650-BCD11F72702A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1118D5B8-F964-31FB-4650-BCD11F72702A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1118D5B8-F964-31FB-4650-BCD11F72702A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																					GlobalSection(MonoDevelopProperties) = preSolution
+																																																																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

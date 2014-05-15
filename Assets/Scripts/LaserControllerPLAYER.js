@@ -1,7 +1,8 @@
 ﻿#pragma strict
+
 var laserspeed:int;
-var damageenemy1:int;
-var damageenemy2:int;
+var damageenemy1laser:int;
+var damageenemy2laser:int;
 var points:int;
 
 function Start () {
@@ -28,20 +29,20 @@ function OnCollisionEnter(coll : Collision)
 {
 Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 
-	if(this.gameObject.tag == "playerbullet")
+	if(this.gameObject.tag == "laserbullet")
 	{
 	
 		if(coll.gameObject.tag == "carrierenemy")
 		{
-			var enemy1:CarrierEnemy = coll.gameObject.GetComponent(CarrierEnemy);
-			enemy1.ReduceHealth(damageenemy1);
+			var laserenemy1:CarrierEnemy = coll.gameObject.GetComponent(CarrierEnemy);
+			laserenemy1.ReduceHealth(damageenemy1laser);
 			GameObject.Destroy(this.gameObject);
 		}
 		
 		if(coll.gameObject.tag == "turretenemy")
 		{
-			var enemy2:TurretEnemy = coll.gameObject.GetComponent(TurretEnemy);
-			enemy2.ReduceHealth(damageenemy2);
+			var laserenemy2:TurretEnemy = coll.gameObject.GetComponent(TurretEnemy);
+			laserenemy2.ReduceHealth(damageenemy2laser);
 			GameObject.Destroy(this.gameObject);
 		}
 	
@@ -60,6 +61,14 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 	//do Powerup
 	var cratepoints:GameObjectController = gameObject.GetComponent(GameObjectController);
 	cratepoints.ReceivePoints(points);
+	}
+	
+		if(coll.gameObject.tag == "cratespecial")
+	{
+	GameObject.Destroy(coll.gameObject);
+	GameObject.Destroy(this.gameObject);
+	
+	//do Powerup
 	}
 
 	

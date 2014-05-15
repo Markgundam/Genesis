@@ -72,9 +72,9 @@ function shootEveryFewSeconds()
 	}
 }
 
-function ReduceHealth(damageenemy1:int)
+function ReduceHealth(damageenemy1laser:int)
 {
-	health = health - damageenemy1;
+	health = health - damageenemy1laser;
 	var currenthealth = health;
 	Debug.Log(health);
 	if(health <= 0)
@@ -83,3 +83,24 @@ function ReduceHealth(damageenemy1:int)
 	}
 }
 
+function ReduceHealth2(damageenemy1gatling:int)
+{
+	health = health - damageenemy1gatling;
+	var currenthealth = health;
+	Debug.Log(health);
+	if(health <= 0)
+	{
+		GameObject.Destroy(this.gameObject);
+	}
+}
+
+function ReduceHealth3(damageenemy1rail:int)
+{
+	health = health - damageenemy1rail;
+	var currenthealth = health;
+	Debug.Log(health);
+	if(health <= 0)
+	{
+		GameObject.Destroy(this.gameObject);
+	}
+}

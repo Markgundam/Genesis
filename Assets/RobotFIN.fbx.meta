@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: a5363f2315fdda14d8c9ce5836a0c74f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Body_Controller
+    100002: curve1
+    100004: curve12
+    100006: curve13
+    100008: Gun_1
+    100010: Gun_2
+    100012: Gun_3
+    100014: Gun_Rotate
+    100016: Head_Cannon_Base
+    100018: Head_Cannon_Base_Cylinder1
+    100020: Head_Cannon_Base_Cylinder2
+    100022: Head_Cannon_Base_Cylinder3
+    100024: Head_Jaw
+    100026: Head_to_Torso_Bone
+    100028: Hip
+    100030: HipJnt
+    100032: HipmovJnt
+    100034: HiptotailJnt
+    100036: ikHandle1
+    100038: ikHandle2
+    100040: ikHandle3
+    100042: ikHandle4
+    100044: ikHandle5
+    100046: ikHandle6
+    100048: JawJnt
+    100050: joint1
+    100052: joint2
+    100054: joint3
+    100056: L_Foot
+    100058: L_Foot_Controller
+    100060: L_FootEND
+    100062: L_FootJnt
+    100064: L_Hand_Controller
+    100066: L_LowerLeg
+    100068: L_LowerlegJnt
+    100070: L_MiddleLeg
+    100072: L_MiddlelegconnJnt
+    100074: L_MiddlelegJnt
+    100076: L_ShoulderJnt
+    100078: L_Upper_Leg
+    100080: L_UpperArm
+    100082: L_UpperlegJnt
+    100084: L_WeaponGatling
+    100086: L_WeaponLaser
+    100088: L_WeaponRail
+    100090: locator1
+    100092: locator2
+    100094: LowerJaw
+    100096: Middle_Leg_L_Shin
+    100098: Middle_Leg_R_Shin
+    100100: NeckJnt
+    100102: nurbsCircle10
+    100104: nurbsCircle3
+    100106: nurbsCircle4
+    100108: nurbsCircle5
+    100110: nurbsCircle6
+    100112: nurbsCircle9
+    100114: R_ElbowJnt
+    100116: R_Foot
+    100118: R_Foot_Controller
+    100120: R_FootJnt
+    100122: R_GunJnt
+    100124: R_Hand_Controller
+    100126: R_LowerLeg
+    100128: R_LowerlegJnt
+    100130: R_MiddleLeg
+    100132: R_MiddlelegconnJnt
+    100134: R_MiddlelegJnt
+    100136: R_ShoulderJnt
+    100138: R_ToeJnt
+    100140: R_Upper_Leg
+    100142: R_UpperArm
+    100144: R_UpperlegJnt
+    100146: R_WeaponGatling
+    100148: R_WeaponLaser
+    100150: R_WeaponRail
+    100152: //RootNode
+    100154: Tail
+    100156: Torso
+    100158: Torso_to_Hip_Bone
+    100160: TorsomovJnt
+    100162: TorsotoNeckJnt
+    100164: transform37
+    100166: UpperHead
+    400000: Body_Controller
+    400002: curve1
+    400004: curve12
+    400006: curve13
+    400008: Gun_1
+    400010: Gun_2
+    400012: Gun_3
+    400014: Gun_Rotate
+    400016: Head_Cannon_Base
+    400018: Head_Cannon_Base_Cylinder1
+    400020: Head_Cannon_Base_Cylinder2
+    400022: Head_Cannon_Base_Cylinder3
+    400024: Head_Jaw
+    400026: Head_to_Torso_Bone
+    400028: Hip
+    400030: HipJnt
+    400032: HipmovJnt
+    400034: HiptotailJnt
+    400036: ikHandle1
+    400038: ikHandle2
+    400040: ikHandle3
+    400042: ikHandle4
+    400044: ikHandle5
+    400046: ikHandle6
+    400048: JawJnt
+    400050: joint1
+    400052: joint2
+    400054: joint3
+    400056: L_Foot
+    400058: L_Foot_Controller
+    400060: L_FootEND
+    400062: L_FootJnt
+    400064: L_Hand_Controller
+    400066: L_LowerLeg
+    400068: L_LowerlegJnt
+    400070: L_MiddleLeg
+    400072: L_MiddlelegconnJnt
+    400074: L_MiddlelegJnt
+    400076: L_ShoulderJnt
+    400078: L_Upper_Leg
+    400080: L_UpperArm
+    400082: L_UpperlegJnt
+    400084: L_WeaponGatling
+    400086: L_WeaponLaser
+    400088: L_WeaponRail
+    400090: locator1
+    400092: locator2
+    400094: LowerJaw
+    400096: Middle_Leg_L_Shin
+    400098: Middle_Leg_R_Shin
+    400100: NeckJnt
+    400102: nurbsCircle10
+    400104: nurbsCircle3
+    400106: nurbsCircle4
+    400108: nurbsCircle5
+    400110: nurbsCircle6
+    400112: nurbsCircle9
+    400114: R_ElbowJnt
+    400116: R_Foot
+    400118: R_Foot_Controller
+    400120: R_FootJnt
+    400122: R_GunJnt
+    400124: R_Hand_Controller
+    400126: R_LowerLeg
+    400128: R_LowerlegJnt
+    400130: R_MiddleLeg
+    400132: R_MiddlelegconnJnt
+    400134: R_MiddlelegJnt
+    400136: R_ShoulderJnt
+    400138: R_ToeJnt
+    400140: R_Upper_Leg
+    400142: R_UpperArm
+    400144: R_UpperlegJnt
+    400146: R_WeaponGatling
+    400148: R_WeaponLaser
+    400150: R_WeaponRail
+    400152: //RootNode
+    400154: Tail
+    400156: Torso
+    400158: Torso_to_Hip_Bone
+    400160: TorsomovJnt
+    400162: TorsotoNeckJnt
+    400164: transform37
+    400166: UpperHead
+    2300000: Head_Cannon_Base
+    2300002: Head_Cannon_Base_Cylinder1
+    2300004: Head_Cannon_Base_Cylinder2
+    2300006: Head_Cannon_Base_Cylinder3
+    2300008: Head_Jaw
+    2300010: Head_to_Torso_Bone
+    2300012: Hip
+    2300014: L_Foot
+    2300016: L_LowerLeg
+    2300018: L_MiddleLeg
+    2300020: L_Upper_Leg
+    2300022: L_UpperArm
+    2300024: L_WeaponGatling
+    2300026: L_WeaponLaser
+    2300028: L_WeaponRail
+    2300030: LowerJaw
+    2300032: Middle_Leg_L_Shin
+    2300034: Middle_Leg_R_Shin
+    2300036: R_Foot
+    2300038: R_LowerLeg
+    2300040: R_MiddleLeg
+    2300042: R_Upper_Leg
+    2300044: R_UpperArm
+    2300046: R_WeaponGatling
+    2300048: R_WeaponLaser
+    2300050: R_WeaponRail
+    2300052: Tail
+    2300054: Torso
+    2300056: Torso_to_Hip_Bone
+    2300058: UpperHead
+    3300000: Head_Cannon_Base
+    3300002: Head_Cannon_Base_Cylinder1
+    3300004: Head_Cannon_Base_Cylinder2
+    3300006: Head_Cannon_Base_Cylinder3
+    3300008: Head_Jaw
+    3300010: Head_to_Torso_Bone
+    3300012: Hip
+    3300014: L_Foot
+    3300016: L_LowerLeg
+    3300018: L_MiddleLeg
+    3300020: L_Upper_Leg
+    3300022: L_UpperArm
+    3300024: L_WeaponGatling
+    3300026: L_WeaponLaser
+    3300028: L_WeaponRail
+    3300030: LowerJaw
+    3300032: Middle_Leg_L_Shin
+    3300034: Middle_Leg_R_Shin
+    3300036: R_Foot
+    3300038: R_LowerLeg
+    3300040: R_MiddleLeg
+    3300042: R_Upper_Leg
+    3300044: R_UpperArm
+    3300046: R_WeaponGatling
+    3300048: R_WeaponLaser
+    3300050: R_WeaponRail
+    3300052: Tail
+    3300054: Torso
+    3300056: Torso_to_Hip_Bone
+    3300058: UpperHead
+    4300000: L_Foot
+    4300002: L_LowerLeg
+    4300004: Middle_Leg_L_Shin
+    4300006: L_MiddleLeg
+    4300008: L_Upper_Leg
+    4300010: R_Foot
+    4300012: R_LowerLeg
+    4300014: Middle_Leg_R_Shin
+    4300016: R_MiddleLeg
+    4300018: R_Upper_Leg
+    4300020: R_WeaponLaser
+    4300022: R_WeaponGatling
+    4300024: R_WeaponRail
+    4300026: R_UpperArm
+    4300028: L_WeaponLaser
+    4300030: L_WeaponGatling
+    4300032: L_WeaponRail
+    4300034: L_UpperArm
+    4300036: Torso
+    4300038: Torso_to_Hip_Bone
+    4300040: LowerJaw
+    4300042: Head_Cannon_Base
+    4300044: Head_Cannon_Base_Cylinder1
+    4300046: Head_Cannon_Base_Cylinder2
+    4300048: Head_Cannon_Base_Cylinder3
+    4300050: UpperHead
+    4300052: Head_Jaw
+    4300054: Head_to_Torso_Bone
+    4300056: Tail
+    4300058: Hip
+    7400000: Walk
+    7400002: Idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: 0
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Controller
+        weight: 1
+      - path: Body_Controller/L_Hand_Controller
+        weight: 1
+      - path: Body_Controller/L_Hand_Controller/ikHandle2
+        weight: 1
+      - path: Body_Controller/locator1
+        weight: 1
+      - path: Body_Controller/locator2
+        weight: 1
+      - path: Body_Controller/R_Hand_Controller
+        weight: 1
+      - path: Body_Controller/R_Hand_Controller/ikHandle1
+        weight: 1
+      - path: Body_Controller/transform37
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/Hip
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/Head_to_Torso_Bone
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/Head_Jaw
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperHead
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerJaw
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2/Gun_3
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2/Gun_3/Head_Cannon_Base_Cylinder3
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2/Head_Cannon_Base_Cylinder2
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Head_Cannon_Base_Cylinder1
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Head_Cannon_Base
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/Torso_to_Hip_Bone
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/Torso
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/joint3
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponGatling
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponLaser
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponRail
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/L_UpperArm
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_GunJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponGatling
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponLaser
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponRail
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_UpperArm
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HiptotailJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/Tail
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddleLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_Foot
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_FootEND
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_LowerLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/Middle_Leg_L_Shin
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_Upper_Leg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddleLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/Middle_Leg_R_Shin
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_Foot
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_ToeJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_LowerLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_Upper_Leg
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: L_Foot_Controller
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle3
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle3/ikHandle4
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle4
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle4/ikHandle5
+        weight: 1
+      - path: R_Foot_Controller
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle5
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle5/ikHandle6
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle6
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle6/ikHandle3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_Controller
+        weight: 1
+      - path: Body_Controller/L_Hand_Controller
+        weight: 1
+      - path: Body_Controller/L_Hand_Controller/ikHandle2
+        weight: 1
+      - path: Body_Controller/locator1
+        weight: 1
+      - path: Body_Controller/locator2
+        weight: 1
+      - path: Body_Controller/R_Hand_Controller
+        weight: 1
+      - path: Body_Controller/R_Hand_Controller/ikHandle1
+        weight: 1
+      - path: Body_Controller/transform37
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/Hip
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/Head_to_Torso_Bone
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/Head_Jaw
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperHead
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerJaw
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2/Gun_3
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2/Gun_3/Head_Cannon_Base_Cylinder3
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Gun_2/Head_Cannon_Base_Cylinder2
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Gun_1/Head_Cannon_Base_Cylinder1
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9/Gun_Rotate/Head_Cannon_Base
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/Torso_to_Hip_Bone
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/Torso
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/joint3
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponGatling
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponLaser
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponRail
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/L_UpperArm
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_GunJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponGatling
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponLaser
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponRail
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_UpperArm
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HiptotailJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/Tail
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddleLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_Foot
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_FootEND
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_LowerLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/Middle_Leg_L_Shin
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_Upper_Leg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddleLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/Middle_Leg_R_Shin
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_Foot
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_ToeJnt
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_LowerLeg
+        weight: 1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_Upper_Leg
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: L_Foot_Controller
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle3
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle3/ikHandle4
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle4
+        weight: 1
+      - path: L_Foot_Controller/nurbsCircle4/ikHandle5
+        weight: 1
+      - path: R_Foot_Controller
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle5
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle5/ikHandle6
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle6
+        weight: 1
+      - path: R_Foot_Controller/nurbsCircle6/ikHandle3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: HipJnt
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

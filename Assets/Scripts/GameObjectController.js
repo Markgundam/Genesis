@@ -11,6 +11,7 @@ var anim : Animator;
 var boom:boolean = true;
 var renderers:MeshRenderer[];
 var totalpoints:int;
+var CanDie:boolean = true;
 
 function OnCollisionEnter(c:Collision)
 {
@@ -75,7 +76,7 @@ function Update () {
 	if(grounded == false && Input.GetMouseButtonDown(1) && Input.GetKey(KeyCode.A))
 	{
 		//jump
-		rigidbody.AddForce(Vector3(-400,0,0));
+		//rigidbody.AddForce(Vector3(-400,0,0));
 	}
 	
 }
@@ -84,18 +85,24 @@ function Update () {
 
 function ReduceHealth(damageplayer:int)
 {
-	health = health - damageplayer;
-	var currenthealth = health;
-	Debug.Log(health);
-	if(health <= 0)
+	if(CanDie == true)
 	{
-		GameObject.Destroy(this.gameObject);
+		health = health - damageplayer;
+		var currenthealth = health;
+		Debug.Log(health);
+		if(health <= 0)
+		{
+			GameObject.Destroy(this.gameObject);
+		}
 	}
 }
 
 function hit() 
 {
+	if(CanDie == true)
+	{
 	StartCoroutine(flash());
+	}
 }
 
 function flash()

@@ -1,4 +1,6 @@
 ﻿#pragma strict
+#pragma implicit
+ 
 var laserlazor:Rigidbody;
 var lasergatling:Rigidbody;
 var laserrail:Rigidbody;
@@ -8,6 +10,8 @@ var laserdamage : int;
 var gatlingdamage : int;
 var raildamage : int;
 var weaponselect: int;
+
+var showPerc:boolean = false;
 
 var reloadTime : float; //Max Reload Time
 var maxCharge : float; //Max Charge Damage
@@ -20,12 +24,21 @@ var weapon1:MeshRenderer[];
 var weapon2:MeshRenderer[];
 var weapon3:MeshRenderer[];
 
+var laser:AudioSource;
+var charge:AudioSource;
+var explosion:AudioSource;
+var gatlingbullet:AudioSource;
+
+var skin:GUISkin;
+var ChargePerc:int;
+
 
 function Start () {
 	//Initialize Stuff
 	chargedmg = 0f;
 	reloadLeft = 0f;
 	weaponselect = 1;
+	
 }
 
 function Update () {
@@ -75,10 +88,17 @@ function Update () {
 		}
 		
 	//RAIL CONTROL
-	
+				showPerc = true;
+				
 				if(Input.GetMouseButton(0)) //LMB Hold
 				{
 				var tmpCharge2:float = chargeraildmg + (Time.deltaTime * 3);//Add charge at the rate of 3 per second
+				
+				if(showPerc == true)
+				{
+				ChargePerc = (tmpCharge2 / maxrailCharge) * 100;
+				}
+				
 					if(tmpCharge2 < maxrailCharge)
 					{  
 						chargeraildmg = tmpCharge2; 
@@ -88,18 +108,22 @@ function Update () {
 							Debug.Log("maxrailCharge");
 					}
 				}
-			
+					
 				if(Input.GetMouseButtonUp(0)) //LMB Up
 				{
+					sound = false;
+					ChargePerc = 0;
+					
 					if(reloadLeft == 0f)
 					{ //If no reload is needed
 						var rail:Rigidbody;
 
 						if(chargeraildmg == maxrailCharge)
 						{
+							explosion.Play();
 							rail = Instantiate (laserrail, this.transform.position, this.transform.rotation);
+
 						}else{
-							//rail = Instantiate (laserlazor, this.transform.position, this.transform.rotation);
 						}
 						
 						var raillaser:LaserControllerPLAYER = rail.GetComponent(LaserControllerPLAYER); //Get the LaserController Component (Script)
@@ -133,6 +157,7 @@ function Update () {
 		}
 		
 	//GATLING CONTROL
+	showPerc = false;
 	
 	if(Input.GetMouseButton(0)) //LMB Up
 	{
@@ -140,6 +165,7 @@ function Update () {
 		{ 
 			var gatling:Rigidbody;
 			
+			gatlingbullet.Play();
 			gatling = Instantiate (lasergatling, this.transform.position, this.transform.rotation);
 
 			var gatlinglaser:LaserControllerPLAYER = gatling.GetComponent(LaserControllerPLAYER); //Get the LaserController Component (Script)
@@ -172,11 +198,18 @@ function Update () {
 		}
 		
 	//LASER CONTROL
+	showPerc = true;
 	
 	if(Input.GetMouseButton(0)) //LMB Hold
 	{
 		var tmpCharge1:float = chargedmg + (Time.deltaTime * 3);//Add charge at the rate of 3 per second
-		if(tmpCharge1 < maxCharge){  
+		
+		if(showPerc == true)
+		{
+		ChargePerc = (tmpCharge1 / maxCharge) * 100;
+		}
+		
+ 		if(tmpCharge1 < maxCharge){  
 			chargedmg = tmpCharge1; 
 		}else
 		{
@@ -189,11 +222,15 @@ function Update () {
 	{
 		if(reloadLeft == 0f){ //If no reload is needed
 			var lazor:Rigidbody;
+			ChargePerc = 0;
 			
 			if(chargedmg == maxCharge)
 			{
+				explosion.Play();
 				lazor = Instantiate (megalaser, this.transform.position, this.transform.rotation);
+
 			}else{
+				laser.Play();
 				lazor = Instantiate (laserlazor, this.transform.position, this.transform.rotation);
 			}
 			var lazorlaser:LaserControllerPLAYER = lazor.GetComponent(LaserControllerPLAYER); //Get the LaserController Component (Script)
@@ -208,4 +245,13 @@ function Update () {
 	
 	
 	
+}
+
+function OnGUI()
+{
+	if(showPerc == true)
+	{
+	GUI.skin = skin;
+    GUI.Label(Rect (20,50,200,40), "Charge: " + ChargePerc + "%");
+    }
 }

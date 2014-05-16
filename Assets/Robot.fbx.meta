@@ -1,1059 +1,268 @@
 fileFormatVersion: 2
-guid: 94b6e2567998439408371f95b79761be
+guid: a5363f2315fdda14d8c9ce5836a0c74f
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: Body_Controller
-    100002: CentrifugeJnt1
-    100004: CentrifugeJnt2
-    100006: Core_Torso_FHinge
-    100008: Core_Torso_Wire_Lower_Attachment1
-    100010: Core_Torso_Wire_Lower_Attachment2
-    100012: Core_Torso_Wire_Lower_Attachment3
-    100014: Core_Torso_Wire_Upper_Attachment1
-    100016: Core_Torso_Wire_Upper_Attachment2
-    100018: Core_Torso_Wire_Upper_Attachment3
-    100020: Core_Torso_Wire_Upper_Attachment4
-    100022: Core_Torso_Wire_Upper_Attachment5
-    100024: curve1
-    100026: curve12
-    100028: curve13
-    100030: EndTailJnt
-    100032: Foot_Connector_L
-    100034: Foot_Connector_R
-    100036: Gun_1
-    100038: Gun_2
-    100040: Gun_3
-    100042: Gun_L_Armor1
-    100044: Gun_L_Armor2
-    100046: Gun_L_Back
-    100048: Gun_L_Cartridge
-    100050: Gun_L_Connection
-    100052: Gun_L_Container
-    100054: Gun_L_PipeConnector1
-    100056: Gun_L_PipeConnector2
-    100058: Gun_L_PipeConnector3
-    100060: Gun_L_Port
-    100062: Gun_R_Armor1
-    100064: Gun_R_Armor2
-    100066: Gun_R_Back
-    100068: Gun_R_Catridge
-    100070: Gun_R_Connection
-    100072: Gun_R_Container
-    100074: Gun_R_Middle
-    100076: Gun_R_Middle1
-    100078: Gun_R_PipeConnector2
-    100080: Gun_R_Port
-    100082: Gun_Rotate
-    100084: Head_Cannon_Base
-    100086: Head_Cannon_Base_Cylinder1
-    100088: Head_Cannon_Base_Cylinder2
-    100090: Head_Cannon_Base_Cylinder3
-    100092: Head_Jaw
-    100094: Head_Lower
-    100096: Head_Lower_Armor
-    100098: Head_to_Torso_Bone
-    100100: Head_Upper
-    100102: Head_Upper_Armor
-    100104: Head_Wire_Lower_Attachment1
-    100106: Head_Wire_Lower_Attachment2
-    100108: Head_Wire_Lower_Attachment3
-    100110: Head_Wire_Upper_Attachment1
-    100112: Head_Wire_Upper_Attachment2
-    100114: Head_Wire_Upper_Attachment3
-    100116: Head_Wire_Upper_Attachment4
-    100118: Head_Wire_Upper_Attachment5
-    100120: Heel_L1
-    100122: Heel_L2
-    100124: Heel_R3
-    100126: Heel_R4
-    100128: Hip_Centrifuge
-    100130: Hip_L_Bar4
-    100132: Hip_LowerArmor
-    100134: Hip_R_Bar
-    100136: Hip_R_Bar2
-    100138: Hip_R_Bar3
-    100140: Hip_R_L_Joint
-    100142: Hip_R_Rotation
-    100144: Hip_R_Rotation1
-    100146: Hip_R_X_Joint
-    100148: Hip_R_X_Joint1
-    100150: Hip_R_Y_Joint
-    100152: Hip_R_Y_Joint1
-    100154: Hip_R_Z_Joint
-    100156: Hip_to_Leg_Joint
-    100158: Hip_to_Tail_Pipe_Attachment
-    100160: Hip_UpperArmor
-    100162: HipJnt
-    100164: HipmovJnt
-    100166: HiptotailJnt
-    100168: ikHandle1
-    100170: ikHandle2
-    100172: ikHandle3
-    100174: ikHandle4
-    100176: ikHandle5
-    100178: ikHandle6
-    100180: JawJnt
-    100182: joint1
-    100184: joint2
-    100186: joint3
-    100188: joint4
-    100190: joint5
-    100192: joint6
-    100194: joint7
-    100196: joint9
-    100198: L_Foot_Controller
-    100200: L_Hand_Controller
-    100202: L_ShoulderJnt
-    100204: L_UpperlegJnt
-    100206: Leg_L_PowerPoint
-    100208: Leg_R_PowerPoint
-    100210: Leg_R_PowerPoint1
-    100212: Leg_R_PowerPoint2
-    100214: Leg_Upper_L_LowerArmor
-    100216: Leg_Upper_R_LowerArmor
-    100218: Leg_Upper_R_UpperArmor2
-    100220: locator1
-    100222: locator2
-    100224: Lower_Leg_L_Bone
-    100226: Lower_Leg_L_Bone1
-    100228: Lower_Leg_L_HudraulicPipeConnector
-    100230: Lower_Leg_L_Hydraulic_Container
-    100232: Lower_Leg_L_Hydraulic_Container1
-    100234: Lower_Leg_R_HeelArmorLower
-    100236: Lower_Leg_R_HeelArmorLower1
-    100238: Lower_Leg_R_HeellArmorUpper
-    100240: Lower_Leg_R_HeellArmorUpper1
-    100242: Lower_Leg_R_HydralicPipeConnector
-    100244: Lower_Leg_R_HydralicPipeConnector1
-    100246: Lower_Leg_R_HydralicPipeConnector2
-    100248: LowerheadJnt
-    100250: Middle_Leg_L_Knee
-    100252: Middle_Leg_L_KneeArmor2
-    100254: Middle_Leg_L_Shin
-    100256: Middle_Leg_R_Bar
-    100258: Middle_Leg_R_Bar1
-    100260: Middle_Leg_R_Knee
-    100262: Middle_Leg_R_KneeArmor
-    100264: Middle_Leg_R_Shin
-    100266: NeckJnt
-    100268: nurbsCircle10
-    100270: nurbsCircle3
-    100272: nurbsCircle4
-    100274: nurbsCircle5
-    100276: nurbsCircle6
-    100278: nurbsCircle9
-    100280: polySurface11
-    100282: polySurface12
-    100284: polySurface13
-    100286: polySurface8
-    100288: R_ElbowJnt
-    100290: R_Foot_Controller
-    100292: R_FootJnt
-    100294: R_GunJnt
-    100296: R_Hand_Controller
-    100298: R_LowerlegJnt
-    100300: R_MiddlelegconnJnt
-    100302: R_MiddlelegJnt
-    100304: R_ShoulderJnt
-    100306: R_ToeJnt
-    100308: R_UpperlegJnt
-    100310: //RootNode
-    100312: Shoulder_L_ArmorLower
-    100314: Shoulder_L_ArmorUpper
-    100316: Shoulder_L_Bar
-    100318: Shoulder_L_Bar2
-    100320: Shoulder_L_PowerPoint1
-    100322: Shoulder_L_Rotation
-    100324: Shoulder_L_X_joint
-    100326: Shoulder_L_Y_Joint
-    100328: Shoulder_L_Z_Joint
-    100330: Shoulder_R_ArmorLower
-    100332: Shoulder_R_ArmorUpper
-    100334: Shoulder_R_Bar
-    100336: Shoulder_R_Bar2
-    100338: Shoulder_R_PowerPoint
-    100340: Shoulder_R_Rotation
-    100342: Shoulder_R_X_Joint
-    100344: Shoulder_R_Y_Joint
-    100346: Shoulder_R_Z_Joint
-    100348: Tail1Jnt1
-    100350: Tail1Jnt2
-    100352: Tail2Jnt1
-    100354: Tail2Jnt2
-    100356: Tail3Jnt1
-    100358: Tail3Jnt2
-    100360: Tail4Jnt1
-    100362: Tail4Jnt2
-    100364: Tail5Jnt1
-    100366: Tail5Jnt2
-    100368: Tail6Jnt1
-    100370: Tail6Jnt2
-    100372: Tail7Jnt1
-    100374: Tail7Jnt2
-    100376: Tail8Jnt1
-    100378: Tail_1
-    100380: Tail_2
-    100382: Tail_3
-    100384: Tail_4
-    100386: Tail_5
-    100388: Tail_6
-    100390: Tail_7
-    100392: Tail_Centrifuge
-    100394: Tail_End
-    100396: Tail_L_Powerpoint1
-    100398: Tail_L_Powerpoint2
-    100400: Tail_L_Powerpoint3
-    100402: Tail_L_Powerpoint4
-    100404: Tail_L_Powerpoint5
-    100406: Tail_L_Powerpoint6
-    100408: Tail_L_Powerpoint7
-    100410: Tail_L_Powerpoint8
-    100412: Tail_PipeConnector1
-    100414: Tail_PipeConnector2
-    100416: Tail_R_Powerpoint1
-    100418: Tail_R_Powerpoint2
-    100420: Tail_R_Powerpoint3
-    100422: Tail_R_Powerpoint4
-    100424: Tail_R_Powerpoint5
-    100426: Tail_R_Powerpoint6
-    100428: Tail_R_Powerpoint7
-    100430: Tail_R_Powerpoint8
-    100432: Toe_L1
-    100434: Toe_L2
-    100436: Toe_R1
-    100438: Toe_R2
-    100440: Torso_to_Hip_Bone
-    100442: Torso_to_Hip_Bone1
-    100444: Torso_to_Hip_Bone2
-    100446: Torso_to_Hip_Bone3
-    100448: Torso_to_Hip_Bone4
-    100450: Torso_to_Hip_Bone5
-    100452: Torso_to_Hip_Bone6
-    100454: Torso_to_Hip_Bone7
-    100456: Torso_to_Hip_Bone8
-    100458: Torso_to_Hip_Bone9
-    100460: Torso_to_Shoulder_Joint
-    100462: Torso_Upper_Armor
-    100464: TorsomovJnt
-    100466: TorsotoNeckJnt
-    100468: transform28
-    100470: transform29
-    100472: transform30
-    100474: transform31
-    100476: transform34
-    100478: transform35
-    100480: transform37
-    100482: Upper_Arm_L
-    100484: Upper_Arm_L_Armor2
-    100486: Upper_Arm_R
-    100488: Upper_Arm_R_Armor
-    100490: Upper_Arm_R_to_Gun_R_Joint1
-    100492: Upper_Arm_R_to_Gun_R_Joint2
-    100494: Upper_Arm_R_to_Gun_R_Joint3
-    100496: Upper_Arm_R_to_Gun_R_Joint4
-    100498: Upper_Leg_L1
-    100500: Upper_Leg_L2
-    100502: Upper_Leg_L3
-    100504: Upper_Leg_L_ThighArmorUpper
-    100506: Upper_Leg_R1
-    100508: Upper_Leg_R2
-    100510: Upper_Leg_R3
-    100512: Upper_Leg_R_ThighArmorUpper
-    100514: UpperheadJnt
-    100516: UpperLeg__L_to_LowerLeg_L_Joint
-    100518: UpperLeg_R_to_LowerLeg_R_Joint
+    100002: curve1
+    100004: curve12
+    100006: curve13
+    100008: Gun_1
+    100010: Gun_2
+    100012: Gun_3
+    100014: Gun_Rotate
+    100016: Head_Cannon_Base
+    100018: Head_Cannon_Base_Cylinder1
+    100020: Head_Cannon_Base_Cylinder2
+    100022: Head_Cannon_Base_Cylinder3
+    100024: Head_Jaw
+    100026: Head_to_Torso_Bone
+    100028: Hip
+    100030: HipJnt
+    100032: HipmovJnt
+    100034: HiptotailJnt
+    100036: ikHandle1
+    100038: ikHandle2
+    100040: ikHandle3
+    100042: ikHandle4
+    100044: ikHandle5
+    100046: ikHandle6
+    100048: JawJnt
+    100050: joint1
+    100052: joint2
+    100054: joint3
+    100056: L_Foot
+    100058: L_Foot_Controller
+    100060: L_FootEND
+    100062: L_FootJnt
+    100064: L_Hand_Controller
+    100066: L_LowerLeg
+    100068: L_LowerlegJnt
+    100070: L_MiddleLeg
+    100072: L_MiddlelegconnJnt
+    100074: L_MiddlelegJnt
+    100076: L_ShoulderJnt
+    100078: L_Upper_Leg
+    100080: L_UpperArm
+    100082: L_UpperlegJnt
+    100084: L_WeaponGatling
+    100086: L_WeaponLaser
+    100088: L_WeaponRail
+    100090: locator1
+    100092: locator2
+    100094: LowerJaw
+    100096: Middle_Leg_L_Shin
+    100098: Middle_Leg_R_Shin
+    100100: NeckJnt
+    100102: nurbsCircle10
+    100104: nurbsCircle3
+    100106: nurbsCircle4
+    100108: nurbsCircle5
+    100110: nurbsCircle6
+    100112: nurbsCircle9
+    100114: R_ElbowJnt
+    100116: R_Foot
+    100118: R_Foot_Controller
+    100120: R_FootJnt
+    100122: R_GunJnt
+    100124: R_Hand_Controller
+    100126: R_LowerLeg
+    100128: R_LowerlegJnt
+    100130: R_MiddleLeg
+    100132: R_MiddlelegconnJnt
+    100134: R_MiddlelegJnt
+    100136: R_ShoulderJnt
+    100138: R_ToeJnt
+    100140: R_Upper_Leg
+    100142: R_UpperArm
+    100144: R_UpperlegJnt
+    100146: R_WeaponGatling
+    100148: R_WeaponLaser
+    100150: R_WeaponRail
+    100152: //RootNode
+    100154: Tail
+    100156: Torso
+    100158: Torso_to_Hip_Bone
+    100160: TorsomovJnt
+    100162: TorsotoNeckJnt
+    100164: transform37
+    100166: UpperHead
     400000: Body_Controller
-    400002: CentrifugeJnt1
-    400004: CentrifugeJnt2
-    400006: Core_Torso_FHinge
-    400008: Core_Torso_Wire_Lower_Attachment1
-    400010: Core_Torso_Wire_Lower_Attachment2
-    400012: Core_Torso_Wire_Lower_Attachment3
-    400014: Core_Torso_Wire_Upper_Attachment1
-    400016: Core_Torso_Wire_Upper_Attachment2
-    400018: Core_Torso_Wire_Upper_Attachment3
-    400020: Core_Torso_Wire_Upper_Attachment4
-    400022: Core_Torso_Wire_Upper_Attachment5
-    400024: curve1
-    400026: curve12
-    400028: curve13
-    400030: EndTailJnt
-    400032: Foot_Connector_L
-    400034: Foot_Connector_R
-    400036: Gun_1
-    400038: Gun_2
-    400040: Gun_3
-    400042: Gun_L_Armor1
-    400044: Gun_L_Armor2
-    400046: Gun_L_Back
-    400048: Gun_L_Cartridge
-    400050: Gun_L_Connection
-    400052: Gun_L_Container
-    400054: Gun_L_PipeConnector1
-    400056: Gun_L_PipeConnector2
-    400058: Gun_L_PipeConnector3
-    400060: Gun_L_Port
-    400062: Gun_R_Armor1
-    400064: Gun_R_Armor2
-    400066: Gun_R_Back
-    400068: Gun_R_Catridge
-    400070: Gun_R_Connection
-    400072: Gun_R_Container
-    400074: Gun_R_Middle
-    400076: Gun_R_Middle1
-    400078: Gun_R_PipeConnector2
-    400080: Gun_R_Port
-    400082: Gun_Rotate
-    400084: Head_Cannon_Base
-    400086: Head_Cannon_Base_Cylinder1
-    400088: Head_Cannon_Base_Cylinder2
-    400090: Head_Cannon_Base_Cylinder3
-    400092: Head_Jaw
-    400094: Head_Lower
-    400096: Head_Lower_Armor
-    400098: Head_to_Torso_Bone
-    400100: Head_Upper
-    400102: Head_Upper_Armor
-    400104: Head_Wire_Lower_Attachment1
-    400106: Head_Wire_Lower_Attachment2
-    400108: Head_Wire_Lower_Attachment3
-    400110: Head_Wire_Upper_Attachment1
-    400112: Head_Wire_Upper_Attachment2
-    400114: Head_Wire_Upper_Attachment3
-    400116: Head_Wire_Upper_Attachment4
-    400118: Head_Wire_Upper_Attachment5
-    400120: Heel_L1
-    400122: Heel_L2
-    400124: Heel_R3
-    400126: Heel_R4
-    400128: Hip_Centrifuge
-    400130: Hip_L_Bar4
-    400132: Hip_LowerArmor
-    400134: Hip_R_Bar
-    400136: Hip_R_Bar2
-    400138: Hip_R_Bar3
-    400140: Hip_R_L_Joint
-    400142: Hip_R_Rotation
-    400144: Hip_R_Rotation1
-    400146: Hip_R_X_Joint
-    400148: Hip_R_X_Joint1
-    400150: Hip_R_Y_Joint
-    400152: Hip_R_Y_Joint1
-    400154: Hip_R_Z_Joint
-    400156: Hip_to_Leg_Joint
-    400158: Hip_to_Tail_Pipe_Attachment
-    400160: Hip_UpperArmor
-    400162: HipJnt
-    400164: HipmovJnt
-    400166: HiptotailJnt
-    400168: ikHandle1
-    400170: ikHandle2
-    400172: ikHandle3
-    400174: ikHandle4
-    400176: ikHandle5
-    400178: ikHandle6
-    400180: JawJnt
-    400182: joint1
-    400184: joint2
-    400186: joint3
-    400188: joint4
-    400190: joint5
-    400192: joint6
-    400194: joint7
-    400196: joint9
-    400198: L_Foot_Controller
-    400200: L_Hand_Controller
-    400202: L_ShoulderJnt
-    400204: L_UpperlegJnt
-    400206: Leg_L_PowerPoint
-    400208: Leg_R_PowerPoint
-    400210: Leg_R_PowerPoint1
-    400212: Leg_R_PowerPoint2
-    400214: Leg_Upper_L_LowerArmor
-    400216: Leg_Upper_R_LowerArmor
-    400218: Leg_Upper_R_UpperArmor2
-    400220: locator1
-    400222: locator2
-    400224: Lower_Leg_L_Bone
-    400226: Lower_Leg_L_Bone1
-    400228: Lower_Leg_L_HudraulicPipeConnector
-    400230: Lower_Leg_L_Hydraulic_Container
-    400232: Lower_Leg_L_Hydraulic_Container1
-    400234: Lower_Leg_R_HeelArmorLower
-    400236: Lower_Leg_R_HeelArmorLower1
-    400238: Lower_Leg_R_HeellArmorUpper
-    400240: Lower_Leg_R_HeellArmorUpper1
-    400242: Lower_Leg_R_HydralicPipeConnector
-    400244: Lower_Leg_R_HydralicPipeConnector1
-    400246: Lower_Leg_R_HydralicPipeConnector2
-    400248: LowerheadJnt
-    400250: Middle_Leg_L_Knee
-    400252: Middle_Leg_L_KneeArmor2
-    400254: Middle_Leg_L_Shin
-    400256: Middle_Leg_R_Bar
-    400258: Middle_Leg_R_Bar1
-    400260: Middle_Leg_R_Knee
-    400262: Middle_Leg_R_KneeArmor
-    400264: Middle_Leg_R_Shin
-    400266: NeckJnt
-    400268: nurbsCircle10
-    400270: nurbsCircle3
-    400272: nurbsCircle4
-    400274: nurbsCircle5
-    400276: nurbsCircle6
-    400278: nurbsCircle9
-    400280: polySurface11
-    400282: polySurface12
-    400284: polySurface13
-    400286: polySurface8
-    400288: R_ElbowJnt
-    400290: R_Foot_Controller
-    400292: R_FootJnt
-    400294: R_GunJnt
-    400296: R_Hand_Controller
-    400298: R_LowerlegJnt
-    400300: R_MiddlelegconnJnt
-    400302: R_MiddlelegJnt
-    400304: R_ShoulderJnt
-    400306: R_ToeJnt
-    400308: R_UpperlegJnt
-    400310: //RootNode
-    400312: Shoulder_L_ArmorLower
-    400314: Shoulder_L_ArmorUpper
-    400316: Shoulder_L_Bar
-    400318: Shoulder_L_Bar2
-    400320: Shoulder_L_PowerPoint1
-    400322: Shoulder_L_Rotation
-    400324: Shoulder_L_X_joint
-    400326: Shoulder_L_Y_Joint
-    400328: Shoulder_L_Z_Joint
-    400330: Shoulder_R_ArmorLower
-    400332: Shoulder_R_ArmorUpper
-    400334: Shoulder_R_Bar
-    400336: Shoulder_R_Bar2
-    400338: Shoulder_R_PowerPoint
-    400340: Shoulder_R_Rotation
-    400342: Shoulder_R_X_Joint
-    400344: Shoulder_R_Y_Joint
-    400346: Shoulder_R_Z_Joint
-    400348: Tail1Jnt1
-    400350: Tail1Jnt2
-    400352: Tail2Jnt1
-    400354: Tail2Jnt2
-    400356: Tail3Jnt1
-    400358: Tail3Jnt2
-    400360: Tail4Jnt1
-    400362: Tail4Jnt2
-    400364: Tail5Jnt1
-    400366: Tail5Jnt2
-    400368: Tail6Jnt1
-    400370: Tail6Jnt2
-    400372: Tail7Jnt1
-    400374: Tail7Jnt2
-    400376: Tail8Jnt1
-    400378: Tail_1
-    400380: Tail_2
-    400382: Tail_3
-    400384: Tail_4
-    400386: Tail_5
-    400388: Tail_6
-    400390: Tail_7
-    400392: Tail_Centrifuge
-    400394: Tail_End
-    400396: Tail_L_Powerpoint1
-    400398: Tail_L_Powerpoint2
-    400400: Tail_L_Powerpoint3
-    400402: Tail_L_Powerpoint4
-    400404: Tail_L_Powerpoint5
-    400406: Tail_L_Powerpoint6
-    400408: Tail_L_Powerpoint7
-    400410: Tail_L_Powerpoint8
-    400412: Tail_PipeConnector1
-    400414: Tail_PipeConnector2
-    400416: Tail_R_Powerpoint1
-    400418: Tail_R_Powerpoint2
-    400420: Tail_R_Powerpoint3
-    400422: Tail_R_Powerpoint4
-    400424: Tail_R_Powerpoint5
-    400426: Tail_R_Powerpoint6
-    400428: Tail_R_Powerpoint7
-    400430: Tail_R_Powerpoint8
-    400432: Toe_L1
-    400434: Toe_L2
-    400436: Toe_R1
-    400438: Toe_R2
-    400440: Torso_to_Hip_Bone
-    400442: Torso_to_Hip_Bone1
-    400444: Torso_to_Hip_Bone2
-    400446: Torso_to_Hip_Bone3
-    400448: Torso_to_Hip_Bone4
-    400450: Torso_to_Hip_Bone5
-    400452: Torso_to_Hip_Bone6
-    400454: Torso_to_Hip_Bone7
-    400456: Torso_to_Hip_Bone8
-    400458: Torso_to_Hip_Bone9
-    400460: Torso_to_Shoulder_Joint
-    400462: Torso_Upper_Armor
-    400464: TorsomovJnt
-    400466: TorsotoNeckJnt
-    400468: transform28
-    400470: transform29
-    400472: transform30
-    400474: transform31
-    400476: transform34
-    400478: transform35
-    400480: transform37
-    400482: Upper_Arm_L
-    400484: Upper_Arm_L_Armor2
-    400486: Upper_Arm_R
-    400488: Upper_Arm_R_Armor
-    400490: Upper_Arm_R_to_Gun_R_Joint1
-    400492: Upper_Arm_R_to_Gun_R_Joint2
-    400494: Upper_Arm_R_to_Gun_R_Joint3
-    400496: Upper_Arm_R_to_Gun_R_Joint4
-    400498: Upper_Leg_L1
-    400500: Upper_Leg_L2
-    400502: Upper_Leg_L3
-    400504: Upper_Leg_L_ThighArmorUpper
-    400506: Upper_Leg_R1
-    400508: Upper_Leg_R2
-    400510: Upper_Leg_R3
-    400512: Upper_Leg_R_ThighArmorUpper
-    400514: UpperheadJnt
-    400516: UpperLeg__L_to_LowerLeg_L_Joint
-    400518: UpperLeg_R_to_LowerLeg_R_Joint
-    2300000: Core_Torso_FHinge
-    2300002: Core_Torso_Wire_Lower_Attachment1
-    2300004: Core_Torso_Wire_Lower_Attachment2
-    2300006: Core_Torso_Wire_Lower_Attachment3
-    2300008: Core_Torso_Wire_Upper_Attachment1
-    2300010: Core_Torso_Wire_Upper_Attachment2
-    2300012: Core_Torso_Wire_Upper_Attachment3
-    2300014: Core_Torso_Wire_Upper_Attachment4
-    2300016: Core_Torso_Wire_Upper_Attachment5
-    2300018: Foot_Connector_L
-    2300020: Foot_Connector_R
-    2300022: Gun_L_Armor1
-    2300024: Gun_L_Armor2
-    2300026: Gun_L_Back
-    2300028: Gun_L_Cartridge
-    2300030: Gun_L_Connection
-    2300032: Gun_L_Container
-    2300034: Gun_L_PipeConnector1
-    2300036: Gun_L_PipeConnector2
-    2300038: Gun_L_PipeConnector3
-    2300040: Gun_L_Port
-    2300042: Gun_R_Armor1
-    2300044: Gun_R_Armor2
-    2300046: Gun_R_Back
-    2300048: Gun_R_Catridge
-    2300050: Gun_R_Connection
-    2300052: Gun_R_Container
-    2300054: Gun_R_Middle
-    2300056: Gun_R_Middle1
-    2300058: Gun_R_PipeConnector2
-    2300060: Gun_R_Port
-    2300062: Head_Cannon_Base
-    2300064: Head_Cannon_Base_Cylinder1
-    2300066: Head_Cannon_Base_Cylinder2
-    2300068: Head_Cannon_Base_Cylinder3
-    2300070: Head_Jaw
-    2300072: Head_Lower
-    2300074: Head_Lower_Armor
-    2300076: Head_to_Torso_Bone
-    2300078: Head_Upper
-    2300080: Head_Upper_Armor
-    2300082: Head_Wire_Lower_Attachment1
-    2300084: Head_Wire_Lower_Attachment2
-    2300086: Head_Wire_Lower_Attachment3
-    2300088: Head_Wire_Upper_Attachment1
-    2300090: Head_Wire_Upper_Attachment2
-    2300092: Head_Wire_Upper_Attachment3
-    2300094: Head_Wire_Upper_Attachment4
-    2300096: Head_Wire_Upper_Attachment5
-    2300098: Heel_L1
-    2300100: Heel_L2
-    2300102: Heel_R3
-    2300104: Heel_R4
-    2300106: Hip_Centrifuge
-    2300108: Hip_L_Bar4
-    2300110: Hip_LowerArmor
-    2300112: Hip_R_Bar
-    2300114: Hip_R_Bar2
-    2300116: Hip_R_Bar3
-    2300118: Hip_R_L_Joint
-    2300120: Hip_R_Rotation
-    2300122: Hip_R_Rotation1
-    2300124: Hip_R_X_Joint
-    2300126: Hip_R_X_Joint1
-    2300128: Hip_R_Y_Joint
-    2300130: Hip_R_Y_Joint1
-    2300132: Hip_R_Z_Joint
-    2300134: Hip_to_Leg_Joint
-    2300136: Hip_to_Tail_Pipe_Attachment
-    2300138: Hip_UpperArmor
-    2300140: Leg_L_PowerPoint
-    2300142: Leg_R_PowerPoint
-    2300144: Leg_R_PowerPoint1
-    2300146: Leg_R_PowerPoint2
-    2300148: Leg_Upper_L_LowerArmor
-    2300150: Leg_Upper_R_LowerArmor
-    2300152: Lower_Leg_L_Bone
-    2300154: Lower_Leg_L_Bone1
-    2300156: Lower_Leg_L_HudraulicPipeConnector
-    2300158: Lower_Leg_L_Hydraulic_Container
-    2300160: Lower_Leg_L_Hydraulic_Container1
-    2300162: Lower_Leg_R_HeelArmorLower
-    2300164: Lower_Leg_R_HeelArmorLower1
-    2300166: Lower_Leg_R_HeellArmorUpper
-    2300168: Lower_Leg_R_HeellArmorUpper1
-    2300170: Lower_Leg_R_HydralicPipeConnector
-    2300172: Lower_Leg_R_HydralicPipeConnector1
-    2300174: Lower_Leg_R_HydralicPipeConnector2
-    2300176: Middle_Leg_L_Knee
-    2300178: Middle_Leg_L_KneeArmor2
-    2300180: Middle_Leg_L_Shin
-    2300182: Middle_Leg_R_Bar
-    2300184: Middle_Leg_R_Bar1
-    2300186: Middle_Leg_R_Knee
-    2300188: Middle_Leg_R_KneeArmor
-    2300190: Middle_Leg_R_Shin
-    2300192: polySurface8
-    2300194: Shoulder_L_ArmorLower
-    2300196: Shoulder_L_ArmorUpper
-    2300198: Shoulder_L_Bar
-    2300200: Shoulder_L_Bar2
-    2300202: Shoulder_L_PowerPoint1
-    2300204: Shoulder_L_Rotation
-    2300206: Shoulder_L_X_joint
-    2300208: Shoulder_L_Y_Joint
-    2300210: Shoulder_L_Z_Joint
-    2300212: Shoulder_R_ArmorLower
-    2300214: Shoulder_R_ArmorUpper
-    2300216: Shoulder_R_Bar
-    2300218: Shoulder_R_Bar2
-    2300220: Shoulder_R_PowerPoint
-    2300222: Shoulder_R_Rotation
-    2300224: Shoulder_R_X_Joint
-    2300226: Shoulder_R_Y_Joint
-    2300228: Shoulder_R_Z_Joint
-    2300230: Tail_1
-    2300232: Tail_2
-    2300234: Tail_3
-    2300236: Tail_4
-    2300238: Tail_5
-    2300240: Tail_6
-    2300242: Tail_7
-    2300244: Tail_Centrifuge
-    2300246: Tail_End
-    2300248: Tail_L_Powerpoint1
-    2300250: Tail_L_Powerpoint2
-    2300252: Tail_L_Powerpoint3
-    2300254: Tail_L_Powerpoint4
-    2300256: Tail_L_Powerpoint5
-    2300258: Tail_L_Powerpoint6
-    2300260: Tail_L_Powerpoint7
-    2300262: Tail_L_Powerpoint8
-    2300264: Tail_PipeConnector1
-    2300266: Tail_PipeConnector2
-    2300268: Tail_R_Powerpoint1
-    2300270: Tail_R_Powerpoint2
-    2300272: Tail_R_Powerpoint3
-    2300274: Tail_R_Powerpoint4
-    2300276: Tail_R_Powerpoint5
-    2300278: Tail_R_Powerpoint6
-    2300280: Tail_R_Powerpoint7
-    2300282: Tail_R_Powerpoint8
-    2300284: Toe_L1
-    2300286: Toe_L2
-    2300288: Toe_R1
-    2300290: Toe_R2
-    2300292: Torso_to_Hip_Bone
-    2300294: Torso_to_Hip_Bone1
-    2300296: Torso_to_Hip_Bone2
-    2300298: Torso_to_Hip_Bone3
-    2300300: Torso_to_Hip_Bone4
-    2300302: Torso_to_Hip_Bone5
-    2300304: Torso_to_Hip_Bone6
-    2300306: Torso_to_Hip_Bone7
-    2300308: Torso_to_Hip_Bone8
-    2300310: Torso_to_Hip_Bone9
-    2300312: Torso_to_Shoulder_Joint
-    2300314: Torso_Upper_Armor
-    2300316: Upper_Arm_L
-    2300318: Upper_Arm_L_Armor2
-    2300320: Upper_Arm_R
-    2300322: Upper_Arm_R_Armor
-    2300324: Upper_Arm_R_to_Gun_R_Joint1
-    2300326: Upper_Arm_R_to_Gun_R_Joint2
-    2300328: Upper_Arm_R_to_Gun_R_Joint3
-    2300330: Upper_Arm_R_to_Gun_R_Joint4
-    2300332: Upper_Leg_L1
-    2300334: Upper_Leg_L2
-    2300336: Upper_Leg_L3
-    2300338: Upper_Leg_L_ThighArmorUpper
-    2300340: Upper_Leg_R1
-    2300342: Upper_Leg_R2
-    2300344: Upper_Leg_R3
-    2300346: Upper_Leg_R_ThighArmorUpper
-    2300348: UpperLeg__L_to_LowerLeg_L_Joint
-    2300350: UpperLeg_R_to_LowerLeg_R_Joint
-    3300000: Core_Torso_FHinge
-    3300002: Core_Torso_Wire_Lower_Attachment1
-    3300004: Core_Torso_Wire_Lower_Attachment2
-    3300006: Core_Torso_Wire_Lower_Attachment3
-    3300008: Core_Torso_Wire_Upper_Attachment1
-    3300010: Core_Torso_Wire_Upper_Attachment2
-    3300012: Core_Torso_Wire_Upper_Attachment3
-    3300014: Core_Torso_Wire_Upper_Attachment4
-    3300016: Core_Torso_Wire_Upper_Attachment5
-    3300018: Foot_Connector_L
-    3300020: Foot_Connector_R
-    3300022: Gun_L_Armor1
-    3300024: Gun_L_Armor2
-    3300026: Gun_L_Back
-    3300028: Gun_L_Cartridge
-    3300030: Gun_L_Connection
-    3300032: Gun_L_Container
-    3300034: Gun_L_PipeConnector1
-    3300036: Gun_L_PipeConnector2
-    3300038: Gun_L_PipeConnector3
-    3300040: Gun_L_Port
-    3300042: Gun_R_Armor1
-    3300044: Gun_R_Armor2
-    3300046: Gun_R_Back
-    3300048: Gun_R_Catridge
-    3300050: Gun_R_Connection
-    3300052: Gun_R_Container
-    3300054: Gun_R_Middle
-    3300056: Gun_R_Middle1
-    3300058: Gun_R_PipeConnector2
-    3300060: Gun_R_Port
-    3300062: Head_Cannon_Base
-    3300064: Head_Cannon_Base_Cylinder1
-    3300066: Head_Cannon_Base_Cylinder2
-    3300068: Head_Cannon_Base_Cylinder3
-    3300070: Head_Jaw
-    3300072: Head_Lower
-    3300074: Head_Lower_Armor
-    3300076: Head_to_Torso_Bone
-    3300078: Head_Upper
-    3300080: Head_Upper_Armor
-    3300082: Head_Wire_Lower_Attachment1
-    3300084: Head_Wire_Lower_Attachment2
-    3300086: Head_Wire_Lower_Attachment3
-    3300088: Head_Wire_Upper_Attachment1
-    3300090: Head_Wire_Upper_Attachment2
-    3300092: Head_Wire_Upper_Attachment3
-    3300094: Head_Wire_Upper_Attachment4
-    3300096: Head_Wire_Upper_Attachment5
-    3300098: Heel_L1
-    3300100: Heel_L2
-    3300102: Heel_R3
-    3300104: Heel_R4
-    3300106: Hip_Centrifuge
-    3300108: Hip_L_Bar4
-    3300110: Hip_LowerArmor
-    3300112: Hip_R_Bar
-    3300114: Hip_R_Bar2
-    3300116: Hip_R_Bar3
-    3300118: Hip_R_L_Joint
-    3300120: Hip_R_Rotation
-    3300122: Hip_R_Rotation1
-    3300124: Hip_R_X_Joint
-    3300126: Hip_R_X_Joint1
-    3300128: Hip_R_Y_Joint
-    3300130: Hip_R_Y_Joint1
-    3300132: Hip_R_Z_Joint
-    3300134: Hip_to_Leg_Joint
-    3300136: Hip_to_Tail_Pipe_Attachment
-    3300138: Hip_UpperArmor
-    3300140: Leg_L_PowerPoint
-    3300142: Leg_R_PowerPoint
-    3300144: Leg_R_PowerPoint1
-    3300146: Leg_R_PowerPoint2
-    3300148: Leg_Upper_L_LowerArmor
-    3300150: Leg_Upper_R_LowerArmor
-    3300152: Lower_Leg_L_Bone
-    3300154: Lower_Leg_L_Bone1
-    3300156: Lower_Leg_L_HudraulicPipeConnector
-    3300158: Lower_Leg_L_Hydraulic_Container
-    3300160: Lower_Leg_L_Hydraulic_Container1
-    3300162: Lower_Leg_R_HeelArmorLower
-    3300164: Lower_Leg_R_HeelArmorLower1
-    3300166: Lower_Leg_R_HeellArmorUpper
-    3300168: Lower_Leg_R_HeellArmorUpper1
-    3300170: Lower_Leg_R_HydralicPipeConnector
-    3300172: Lower_Leg_R_HydralicPipeConnector1
-    3300174: Lower_Leg_R_HydralicPipeConnector2
-    3300176: Middle_Leg_L_Knee
-    3300178: Middle_Leg_L_KneeArmor2
-    3300180: Middle_Leg_L_Shin
-    3300182: Middle_Leg_R_Bar
-    3300184: Middle_Leg_R_Bar1
-    3300186: Middle_Leg_R_Knee
-    3300188: Middle_Leg_R_KneeArmor
-    3300190: Middle_Leg_R_Shin
-    3300192: polySurface8
-    3300194: Shoulder_L_ArmorLower
-    3300196: Shoulder_L_ArmorUpper
-    3300198: Shoulder_L_Bar
-    3300200: Shoulder_L_Bar2
-    3300202: Shoulder_L_PowerPoint1
-    3300204: Shoulder_L_Rotation
-    3300206: Shoulder_L_X_joint
-    3300208: Shoulder_L_Y_Joint
-    3300210: Shoulder_L_Z_Joint
-    3300212: Shoulder_R_ArmorLower
-    3300214: Shoulder_R_ArmorUpper
-    3300216: Shoulder_R_Bar
-    3300218: Shoulder_R_Bar2
-    3300220: Shoulder_R_PowerPoint
-    3300222: Shoulder_R_Rotation
-    3300224: Shoulder_R_X_Joint
-    3300226: Shoulder_R_Y_Joint
-    3300228: Shoulder_R_Z_Joint
-    3300230: Tail_1
-    3300232: Tail_2
-    3300234: Tail_3
-    3300236: Tail_4
-    3300238: Tail_5
-    3300240: Tail_6
-    3300242: Tail_7
-    3300244: Tail_Centrifuge
-    3300246: Tail_End
-    3300248: Tail_L_Powerpoint1
-    3300250: Tail_L_Powerpoint2
-    3300252: Tail_L_Powerpoint3
-    3300254: Tail_L_Powerpoint4
-    3300256: Tail_L_Powerpoint5
-    3300258: Tail_L_Powerpoint6
-    3300260: Tail_L_Powerpoint7
-    3300262: Tail_L_Powerpoint8
-    3300264: Tail_PipeConnector1
-    3300266: Tail_PipeConnector2
-    3300268: Tail_R_Powerpoint1
-    3300270: Tail_R_Powerpoint2
-    3300272: Tail_R_Powerpoint3
-    3300274: Tail_R_Powerpoint4
-    3300276: Tail_R_Powerpoint5
-    3300278: Tail_R_Powerpoint6
-    3300280: Tail_R_Powerpoint7
-    3300282: Tail_R_Powerpoint8
-    3300284: Toe_L1
-    3300286: Toe_L2
-    3300288: Toe_R1
-    3300290: Toe_R2
-    3300292: Torso_to_Hip_Bone
-    3300294: Torso_to_Hip_Bone1
-    3300296: Torso_to_Hip_Bone2
-    3300298: Torso_to_Hip_Bone3
-    3300300: Torso_to_Hip_Bone4
-    3300302: Torso_to_Hip_Bone5
-    3300304: Torso_to_Hip_Bone6
-    3300306: Torso_to_Hip_Bone7
-    3300308: Torso_to_Hip_Bone8
-    3300310: Torso_to_Hip_Bone9
-    3300312: Torso_to_Shoulder_Joint
-    3300314: Torso_Upper_Armor
-    3300316: Upper_Arm_L
-    3300318: Upper_Arm_L_Armor2
-    3300320: Upper_Arm_R
-    3300322: Upper_Arm_R_Armor
-    3300324: Upper_Arm_R_to_Gun_R_Joint1
-    3300326: Upper_Arm_R_to_Gun_R_Joint2
-    3300328: Upper_Arm_R_to_Gun_R_Joint3
-    3300330: Upper_Arm_R_to_Gun_R_Joint4
-    3300332: Upper_Leg_L1
-    3300334: Upper_Leg_L2
-    3300336: Upper_Leg_L3
-    3300338: Upper_Leg_L_ThighArmorUpper
-    3300340: Upper_Leg_R1
-    3300342: Upper_Leg_R2
-    3300344: Upper_Leg_R3
-    3300346: Upper_Leg_R_ThighArmorUpper
-    3300348: UpperLeg__L_to_LowerLeg_L_Joint
-    3300350: UpperLeg_R_to_LowerLeg_R_Joint
-    4300000: Foot_Connector_L
-    4300002: Toe_L1
-    4300004: Toe_L2
-    4300006: Heel_L2
-    4300008: Heel_L1
-    4300010: Lower_Leg_L_Hydraulic_Container
-    4300012: Lower_Leg_L_HudraulicPipeConnector
-    4300014: Lower_Leg_L_Bone
-    4300016: Lower_Leg_R_HeellArmorUpper1
-    4300018: Lower_Leg_R_HeelArmorLower
-    4300020: Leg_R_PowerPoint2
-    4300022: Middle_Leg_L_Shin
-    4300024: Middle_Leg_L_Knee
-    4300026: Middle_Leg_R_Bar1
-    4300028: Middle_Leg_L_KneeArmor2
-    4300030: Hip_R_X_Joint1
-    4300032: Hip_R_Bar3
-    4300034: Hip_R_Y_Joint1
-    4300036: Hip_R_L_Joint
-    4300038: Hip_L_Bar4
-    4300040: Upper_Leg_L1
-    4300042: Upper_Leg_L2
-    4300044: Upper_Leg_L3
-    4300046: UpperLeg__L_to_LowerLeg_L_Joint
-    4300048: Leg_Upper_L_LowerArmor
-    4300050: Upper_Leg_L_ThighArmorUpper
-    4300052: Leg_L_PowerPoint
-    4300054: Hip_R_Rotation1
-    4300056: Lower_Leg_R_HydralicPipeConnector2
-    4300058: Lower_Leg_R_HeellArmorUpper
-    4300060: Lower_Leg_R_HydralicPipeConnector
-    4300062: Lower_Leg_R_HeelArmorLower1
-    4300064: Lower_Leg_L_Bone1
-    4300066: Lower_Leg_L_Hydraulic_Container1
-    4300068: Foot_Connector_R
-    4300070: Toe_R2
-    4300072: Toe_R1
-    4300074: Heel_R3
-    4300076: Heel_R4
-    4300078: Leg_R_PowerPoint1
-    4300080: Middle_Leg_R_Shin
-    4300082: Middle_Leg_R_Knee
-    4300084: Middle_Leg_R_Bar
-    4300086: Middle_Leg_R_KneeArmor
-    4300088: Upper_Leg_R1
-    4300090: Upper_Leg_R2
-    4300092: Leg_Upper_R_LowerArmor
-    4300094: Lower_Leg_R_HydralicPipeConnector1
-    4300096: Leg_R_PowerPoint
-    4300098: Upper_Leg_R3
-    4300100: UpperLeg_R_to_LowerLeg_R_Joint
-    4300102: Hip_R_Bar2
-    4300104: Hip_R_X_Joint
-    4300106: Upper_Leg_R_ThighArmorUpper
-    4300108: Hip_R_Z_Joint
-    4300110: Hip_R_Bar
-    4300112: Hip_R_Y_Joint
-    4300114: Hip_R_Rotation
-    4300116: Gun_R_Armor2
-    4300118: Gun_R_Armor1
-    4300120: Gun_R_Middle
-    4300122: Gun_R_Container
-    4300124: Gun_R_Connection
-    4300126: Gun_R_PipeConnector2
-    4300128: Gun_L_PipeConnector1
-    4300130: Gun_R_Catridge
-    4300132: Gun_R_Back
-    4300134: Gun_R_Port
-    4300136: Upper_Arm_R_to_Gun_R_Joint2
-    4300138: Shoulder_R_ArmorUpper
-    4300140: Shoulder_R_ArmorLower
-    4300142: Shoulder_R_Z_Joint
-    4300144: Shoulder_R_Bar2
-    4300146: Shoulder_R_PowerPoint
-    4300148: Shoulder_R_X_Joint
-    4300150: Shoulder_R_Y_Joint
-    4300152: Shoulder_R_Rotation
-    4300154: Shoulder_R_Bar
-    4300156: Upper_Arm_R_Armor
-    4300158: Upper_Arm_R
-    4300160: Upper_Arm_R_to_Gun_R_Joint1
-    4300162: Shoulder_L_ArmorUpper
-    4300164: Shoulder_L_PowerPoint1
-    4300166: Shoulder_L_ArmorLower
-    4300168: Upper_Arm_L_Armor2
-    4300170: Upper_Arm_R_to_Gun_R_Joint3
-    4300172: Upper_Arm_L
-    4300174: Shoulder_L_Rotation
-    4300176: Shoulder_L_Z_Joint
-    4300178: Shoulder_L_Y_Joint
-    4300180: Shoulder_L_Bar
-    4300182: Shoulder_L_X_joint
-    4300184: Shoulder_L_Bar2
-    4300186: Gun_L_Back
-    4300188: Gun_R_Middle1
-    4300190: Gun_L_Cartridge
-    4300192: Gun_L_Container
-    4300194: Gun_L_Connection
-    4300196: Gun_L_PipeConnector2
-    4300198: Gun_L_PipeConnector3
-    4300200: Upper_Arm_R_to_Gun_R_Joint4
-    4300202: Gun_L_Armor2
-    4300204: Gun_L_Armor1
-    4300206: Gun_L_Port
-    4300208: Torso_Upper_Armor
-    4300210: Core_Torso_Wire_Upper_Attachment4
-    4300212: Core_Torso_Wire_Upper_Attachment3
-    4300214: Core_Torso_Wire_Upper_Attachment5
-    4300216: Core_Torso_Wire_Upper_Attachment1
-    4300218: Core_Torso_Wire_Upper_Attachment2
-    4300220: Core_Torso_FHinge
-    4300222: polySurface8
-    4300224: Core_Torso_Wire_Lower_Attachment1
-    4300226: Core_Torso_Wire_Lower_Attachment2
-    4300228: Core_Torso_Wire_Lower_Attachment3
-    4300230: Torso_to_Shoulder_Joint
-    4300232: Torso_to_Hip_Bone
-    4300234: Head_Lower
-    4300236: Head_Lower_Armor
-    4300238: Head_Wire_Lower_Attachment3
-    4300240: Head_Wire_Lower_Attachment2
-    4300242: Head_Wire_Lower_Attachment1
-    4300244: Head_Cannon_Base
-    4300246: Head_Cannon_Base_Cylinder1
-    4300248: Head_Cannon_Base_Cylinder2
-    4300250: Head_Cannon_Base_Cylinder3
-    4300252: Head_Upper
-    4300254: Head_Upper_Armor
-    4300256: Head_Wire_Upper_Attachment1
-    4300258: Head_Wire_Upper_Attachment2
-    4300260: Head_Wire_Upper_Attachment4
-    4300262: Head_Wire_Upper_Attachment3
-    4300264: Head_Wire_Upper_Attachment5
-    4300266: Head_Jaw
-    4300268: Head_to_Torso_Bone
-    4300270: Tail_End
-    4300272: Tail_R_Powerpoint8
-    4300274: Tail_L_Powerpoint8
-    4300276: Torso_to_Hip_Bone9
-    4300278: Tail_L_Powerpoint7
-    4300280: Tail_R_Powerpoint7
-    4300282: Tail_7
-    4300284: Torso_to_Hip_Bone8
-    4300286: Tail_L_Powerpoint6
-    4300288: Tail_R_Powerpoint6
-    4300290: Tail_6
-    4300292: Torso_to_Hip_Bone7
-    4300294: Tail_5
-    4300296: Tail_L_Powerpoint5
-    4300298: Tail_R_Powerpoint5
-    4300300: Torso_to_Hip_Bone6
-    4300302: Tail_4
-    4300304: Tail_L_Powerpoint4
-    4300306: Tail_R_Powerpoint4
-    4300308: Torso_to_Hip_Bone5
-    4300310: Tail_3
-    4300312: Tail_L_Powerpoint3
-    4300314: Tail_R_Powerpoint3
-    4300316: Torso_to_Hip_Bone4
-    4300318: Tail_2
-    4300320: Tail_L_Powerpoint2
-    4300322: Tail_R_Powerpoint2
-    4300324: Tail_PipeConnector2
-    4300326: Torso_to_Hip_Bone3
-    4300328: Tail_1
-    4300330: Tail_L_Powerpoint1
-    4300332: Tail_R_Powerpoint1
-    4300334: Tail_PipeConnector1
-    4300336: Torso_to_Hip_Bone2
-    4300338: Tail_Centrifuge
-    4300340: Torso_to_Hip_Bone1
-    4300342: Hip_UpperArmor
-    4300344: Hip_Centrifuge
-    4300346: Hip_LowerArmor
-    4300348: Hip_to_Leg_Joint
-    4300350: Hip_to_Tail_Pipe_Attachment
-    7400000: StartWalk
-    7400002: Walk
-    7400004: Idle
+    400002: curve1
+    400004: curve12
+    400006: curve13
+    400008: Gun_1
+    400010: Gun_2
+    400012: Gun_3
+    400014: Gun_Rotate
+    400016: Head_Cannon_Base
+    400018: Head_Cannon_Base_Cylinder1
+    400020: Head_Cannon_Base_Cylinder2
+    400022: Head_Cannon_Base_Cylinder3
+    400024: Head_Jaw
+    400026: Head_to_Torso_Bone
+    400028: Hip
+    400030: HipJnt
+    400032: HipmovJnt
+    400034: HiptotailJnt
+    400036: ikHandle1
+    400038: ikHandle2
+    400040: ikHandle3
+    400042: ikHandle4
+    400044: ikHandle5
+    400046: ikHandle6
+    400048: JawJnt
+    400050: joint1
+    400052: joint2
+    400054: joint3
+    400056: L_Foot
+    400058: L_Foot_Controller
+    400060: L_FootEND
+    400062: L_FootJnt
+    400064: L_Hand_Controller
+    400066: L_LowerLeg
+    400068: L_LowerlegJnt
+    400070: L_MiddleLeg
+    400072: L_MiddlelegconnJnt
+    400074: L_MiddlelegJnt
+    400076: L_ShoulderJnt
+    400078: L_Upper_Leg
+    400080: L_UpperArm
+    400082: L_UpperlegJnt
+    400084: L_WeaponGatling
+    400086: L_WeaponLaser
+    400088: L_WeaponRail
+    400090: locator1
+    400092: locator2
+    400094: LowerJaw
+    400096: Middle_Leg_L_Shin
+    400098: Middle_Leg_R_Shin
+    400100: NeckJnt
+    400102: nurbsCircle10
+    400104: nurbsCircle3
+    400106: nurbsCircle4
+    400108: nurbsCircle5
+    400110: nurbsCircle6
+    400112: nurbsCircle9
+    400114: R_ElbowJnt
+    400116: R_Foot
+    400118: R_Foot_Controller
+    400120: R_FootJnt
+    400122: R_GunJnt
+    400124: R_Hand_Controller
+    400126: R_LowerLeg
+    400128: R_LowerlegJnt
+    400130: R_MiddleLeg
+    400132: R_MiddlelegconnJnt
+    400134: R_MiddlelegJnt
+    400136: R_ShoulderJnt
+    400138: R_ToeJnt
+    400140: R_Upper_Leg
+    400142: R_UpperArm
+    400144: R_UpperlegJnt
+    400146: R_WeaponGatling
+    400148: R_WeaponLaser
+    400150: R_WeaponRail
+    400152: //RootNode
+    400154: Tail
+    400156: Torso
+    400158: Torso_to_Hip_Bone
+    400160: TorsomovJnt
+    400162: TorsotoNeckJnt
+    400164: transform37
+    400166: UpperHead
+    2300000: Head_Cannon_Base
+    2300002: Head_Cannon_Base_Cylinder1
+    2300004: Head_Cannon_Base_Cylinder2
+    2300006: Head_Cannon_Base_Cylinder3
+    2300008: Head_Jaw
+    2300010: Head_to_Torso_Bone
+    2300012: Hip
+    2300014: L_Foot
+    2300016: L_LowerLeg
+    2300018: L_MiddleLeg
+    2300020: L_Upper_Leg
+    2300022: L_UpperArm
+    2300024: L_WeaponGatling
+    2300026: L_WeaponLaser
+    2300028: L_WeaponRail
+    2300030: LowerJaw
+    2300032: Middle_Leg_L_Shin
+    2300034: Middle_Leg_R_Shin
+    2300036: R_Foot
+    2300038: R_LowerLeg
+    2300040: R_MiddleLeg
+    2300042: R_Upper_Leg
+    2300044: R_UpperArm
+    2300046: R_WeaponGatling
+    2300048: R_WeaponLaser
+    2300050: R_WeaponRail
+    2300052: Tail
+    2300054: Torso
+    2300056: Torso_to_Hip_Bone
+    2300058: UpperHead
+    3300000: Head_Cannon_Base
+    3300002: Head_Cannon_Base_Cylinder1
+    3300004: Head_Cannon_Base_Cylinder2
+    3300006: Head_Cannon_Base_Cylinder3
+    3300008: Head_Jaw
+    3300010: Head_to_Torso_Bone
+    3300012: Hip
+    3300014: L_Foot
+    3300016: L_LowerLeg
+    3300018: L_MiddleLeg
+    3300020: L_Upper_Leg
+    3300022: L_UpperArm
+    3300024: L_WeaponGatling
+    3300026: L_WeaponLaser
+    3300028: L_WeaponRail
+    3300030: LowerJaw
+    3300032: Middle_Leg_L_Shin
+    3300034: Middle_Leg_R_Shin
+    3300036: R_Foot
+    3300038: R_LowerLeg
+    3300040: R_MiddleLeg
+    3300042: R_Upper_Leg
+    3300044: R_UpperArm
+    3300046: R_WeaponGatling
+    3300048: R_WeaponLaser
+    3300050: R_WeaponRail
+    3300052: Tail
+    3300054: Torso
+    3300056: Torso_to_Hip_Bone
+    3300058: UpperHead
+    4300000: L_Foot
+    4300002: L_LowerLeg
+    4300004: Middle_Leg_L_Shin
+    4300006: L_MiddleLeg
+    4300008: L_Upper_Leg
+    4300010: R_Foot
+    4300012: R_LowerLeg
+    4300014: Middle_Leg_R_Shin
+    4300016: R_MiddleLeg
+    4300018: R_Upper_Leg
+    4300020: R_WeaponLaser
+    4300022: R_WeaponGatling
+    4300024: R_WeaponRail
+    4300026: R_UpperArm
+    4300028: L_WeaponLaser
+    4300030: L_WeaponGatling
+    4300032: L_WeaponRail
+    4300034: L_UpperArm
+    4300036: Torso
+    4300038: Torso_to_Hip_Bone
+    4300040: LowerJaw
+    4300042: Head_Cannon_Base
+    4300044: Head_Cannon_Base_Cylinder1
+    4300046: Head_Cannon_Base_Cylinder2
+    4300048: Head_Cannon_Base_Cylinder3
+    4300050: UpperHead
+    4300052: Head_Jaw
+    4300054: Head_to_Torso_Bone
+    4300056: Tail
+    4300058: Hip
+    7400000: Walk
+    7400002: Idle
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -1065,7 +274,7 @@ ModelImporter:
     optimizeGameObjects: 0
     animationCompression: 1
     animationRotationError: .5
-    animationPositionError: 0
+    animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
@@ -1114,15 +323,7 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_Centrifuge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_LowerArmor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_to_Leg_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_to_Tail_Pipe_Attachment
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_UpperArmor
+      - path: Body_Controller/transform37/HipJnt/Hip
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt
         weight: 1
@@ -1140,35 +341,11 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Upper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Upper_Armor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment5
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperHead
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Lower
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Lower_Armor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Wire_Lower_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Wire_Lower_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Wire_Lower_Attachment3
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerJaw
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9
         weight: 1
@@ -1192,345 +369,69 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt
         weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/Torso
+        weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_FHinge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Lower_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Lower_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Lower_Attachment3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment5
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Armor1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Armor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Back
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Cartridge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Connection
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Container
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_PipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_PipeConnector3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Port
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_R_Middle1
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/joint3
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Upper_Arm_R_to_Gun_R_Joint4
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponGatling
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_ArmorLower
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponLaser
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_ArmorUpper
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponRail
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Bar2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_PowerPoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Rotation
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_X_joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Y_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Z_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Upper_Arm_L
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Upper_Arm_L_Armor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Upper_Arm_R_to_Gun_R_Joint3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/polySurface8
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/L_UpperArm
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_L_PipeConnector1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Armor1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Armor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Back
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Catridge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Connection
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Container
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Middle
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_PipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Port
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_GunJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Upper_Arm_R_to_Gun_R_Joint2
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponGatling
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_ArmorLower
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponLaser
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_ArmorUpper
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponRail
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Bar2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_PowerPoint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Rotation
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_X_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Y_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Z_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Upper_Arm_R
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Upper_Arm_R_Armor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Upper_Arm_R_to_Gun_R_Joint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Torso_to_Shoulder_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Torso_Upper_Armor
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_UpperArm
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HiptotailJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/EndTailJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/Tail_End
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/Tail_L_Powerpoint8
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/Tail_R_Powerpoint8
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Torso_to_Hip_Bone9
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Torso_to_Hip_Bone9/transform35
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail_7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail_L_Powerpoint7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail_R_Powerpoint7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Torso_to_Hip_Bone8
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail_6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail_L_Powerpoint6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail_R_Powerpoint6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Torso_to_Hip_Bone7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail_5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail_L_Powerpoint5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail_R_Powerpoint5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Torso_to_Hip_Bone6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail_4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail_L_Powerpoint4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail_R_Powerpoint4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Torso_to_Hip_Bone5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail_3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail_L_Powerpoint3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail_R_Powerpoint3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Torso_to_Hip_Bone4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_L_Powerpoint2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_PipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_R_Powerpoint2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Torso_to_Hip_Bone3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_L_Powerpoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_PipeConnector1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_R_Powerpoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Torso_to_Hip_Bone2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/Tail_Centrifuge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/Torso_to_Hip_Bone1
+      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/Tail
         weight: 1
       - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_L_Bar4
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_Bar3
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddleLeg
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_L_Joint
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_Rotation1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_X_Joint1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_Y_Joint1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_Foot
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_FootEND
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_LowerLeg
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/Middle_Leg_L_Shin
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Foot_Connector_L
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Heel_L1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Heel_L2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/joint9
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Toe_L1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Toe_L2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Leg_R_PowerPoint2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_L_Bone
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_L_HudraulicPipeConnector
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_L_Hydraulic_Container
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_R_HeelArmorLower
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_R_HeellArmorUpper1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/Middle_Leg_L_Shin
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/Middle_Leg_L_Knee
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/Middle_Leg_L_KneeArmor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/Middle_Leg_R_Bar1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Leg_L_PowerPoint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Leg_Upper_L_LowerArmor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Lower_Leg_R_HydralicPipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L_ThighArmorUpper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/UpperLeg__L_to_LowerLeg_L_Joint
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_Upper_Leg
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Bar2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Rotation
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_X_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Y_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Z_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Leg_R_PowerPoint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Leg_Upper_R_LowerArmor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Lower_Leg_R_HydralicPipeConnector1
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/Middle_Leg_R_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/Middle_Leg_R_Knee
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/Middle_Leg_R_KneeArmor
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddleLeg
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt
         weight: 1
@@ -1538,43 +439,15 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Leg_R_PowerPoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_L_Bone1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_L_Hydraulic_Container1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_R_HeelArmorLower1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_R_HeellArmorUpper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_R_HydralicPipeConnector
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Foot_Connector_R
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Foot_Connector_R/transform34
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Heel_R3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Heel_R4
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_Foot
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_ToeJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Toe_R1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_LowerLeg
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Toe_R2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R_ThighArmorUpper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/UpperLeg_R_to_LowerLeg_R_Joint
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_Upper_Leg
         weight: 1
       - path: curve1
         weight: 1
@@ -1587,22 +460,6 @@ ModelImporter:
       - path: L_Foot_Controller/nurbsCircle4
         weight: 1
       - path: L_Foot_Controller/nurbsCircle4/ikHandle5
-        weight: 1
-      - path: Leg_Upper_R_UpperArmor2
-        weight: 1
-      - path: Leg_Upper_R_UpperArmor2/transform28
-        weight: 1
-      - path: polySurface11
-        weight: 1
-      - path: polySurface11/transform29
-        weight: 1
-      - path: polySurface12
-        weight: 1
-      - path: polySurface12/transform30
-        weight: 1
-      - path: polySurface13
-        weight: 1
-      - path: polySurface13/transform31
         weight: 1
       - path: R_Foot_Controller
         weight: 1
@@ -1629,8 +486,8 @@ ModelImporter:
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
@@ -1660,15 +517,7 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_Centrifuge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_LowerArmor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_to_Leg_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_to_Tail_Pipe_Attachment
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/Hip_UpperArmor
+      - path: Body_Controller/transform37/HipJnt/Hip
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt
         weight: 1
@@ -1686,35 +535,11 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Upper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Upper_Armor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperheadJnt/Head_Wire_Upper_Attachment5
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve12/UpperHead
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Lower
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Lower_Armor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Wire_Lower_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Wire_Lower_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerheadJnt/Head_Wire_Lower_Attachment3
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/curve13/LowerJaw
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/nurbsCircle10/NeckJnt/JawJnt/joint1/nurbsCircle9
         weight: 1
@@ -1738,345 +563,69 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt
         weight: 1
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/Torso
+        weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_FHinge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Lower_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Lower_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Lower_Attachment3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Core_Torso_Wire_Upper_Attachment5
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Armor1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Armor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Back
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Cartridge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Connection
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Container
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_PipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_PipeConnector3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_L_Port
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Gun_R_Middle1
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/joint3
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/Upper_Arm_R_to_Gun_R_Joint4
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponGatling
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_ArmorLower
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponLaser
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_ArmorUpper
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/joint2/L_WeaponRail
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Bar2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_PowerPoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Rotation
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_X_joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Y_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Shoulder_L_Z_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Upper_Arm_L
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Upper_Arm_L_Armor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/Upper_Arm_R_to_Gun_R_Joint3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/polySurface8
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/L_ShoulderJnt/L_UpperArm
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_L_PipeConnector1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Armor1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Armor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Back
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Catridge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Connection
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Container
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Middle
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_PipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Gun_R_Port
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_GunJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/Upper_Arm_R_to_Gun_R_Joint2
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponGatling
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_ArmorLower
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponLaser
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_ArmorUpper
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_ElbowJnt/R_WeaponRail
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Bar2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_PowerPoint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Rotation
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_X_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Y_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Shoulder_R_Z_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Upper_Arm_R
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Upper_Arm_R_Armor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/Upper_Arm_R_to_Gun_R_Joint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Torso_to_Shoulder_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/Torso_Upper_Armor
+      - path: Body_Controller/transform37/HipJnt/HipmovJnt/TorsomovJnt/TorsotoNeckJnt/R_ShoulderJnt/R_UpperArm
         weight: 1
       - path: Body_Controller/transform37/HipJnt/HiptotailJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/EndTailJnt
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/Tail_End
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/Tail_L_Powerpoint8
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Tail8Jnt1/Tail_R_Powerpoint8
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Torso_to_Hip_Bone9
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail7Jnt2/Torso_to_Hip_Bone9/transform35
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail_7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail_L_Powerpoint7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Tail7Jnt1/Tail_R_Powerpoint7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail6Jnt2/Torso_to_Hip_Bone8
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail_6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail_L_Powerpoint6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Tail6Jnt1/Tail_R_Powerpoint6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail5Jnt2/Torso_to_Hip_Bone7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail_5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail_L_Powerpoint5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Tail5Jnt1/Tail_R_Powerpoint5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail4Jnt2/Torso_to_Hip_Bone6
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail_4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail_L_Powerpoint4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Tail4Jnt1/Tail_R_Powerpoint4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail3Jnt2/Torso_to_Hip_Bone5
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail_3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail_L_Powerpoint3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Tail3Jnt1/Tail_R_Powerpoint3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail2Jnt2/Torso_to_Hip_Bone4
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_L_Powerpoint2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_PipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Tail2Jnt1/Tail_R_Powerpoint2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail1Jnt2/Torso_to_Hip_Bone3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_L_Powerpoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_PipeConnector1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Tail1Jnt1/Tail_R_Powerpoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/CentrifugeJnt2/Torso_to_Hip_Bone2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/CentrifugeJnt1/Tail_Centrifuge
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/Torso_to_Hip_Bone1
+      - path: Body_Controller/transform37/HipJnt/HiptotailJnt/Tail
         weight: 1
       - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_L_Bar4
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_Bar3
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddleLeg
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_L_Joint
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_Rotation1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_X_Joint1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Hip_R_Y_Joint1
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_Foot
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_FootJnt/L_FootEND
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/L_LowerlegJnt/L_LowerLeg
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_MiddlelegJnt/L_MiddlelegconnJnt/Middle_Leg_L_Shin
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Foot_Connector_L
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Heel_L1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Heel_L2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/joint9
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Toe_L1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/joint7/Toe_L2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Leg_R_PowerPoint2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_L_Bone
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_L_HudraulicPipeConnector
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_L_Hydraulic_Container
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_R_HeelArmorLower
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/joint6/Lower_Leg_R_HeellArmorUpper1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/joint5/Middle_Leg_L_Shin
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/Middle_Leg_L_Knee
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/Middle_Leg_L_KneeArmor2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/joint4/Middle_Leg_R_Bar1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Leg_L_PowerPoint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Leg_Upper_L_LowerArmor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Lower_Leg_R_HydralicPipeConnector2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/Upper_Leg_L_ThighArmorUpper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/UpperLeg__L_to_LowerLeg_L_Joint
+      - path: Body_Controller/transform37/HipJnt/L_UpperlegJnt/L_Upper_Leg
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Bar2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Rotation
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_X_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Y_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Hip_R_Z_Joint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Leg_R_PowerPoint
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Leg_Upper_R_LowerArmor
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Lower_Leg_R_HydralicPipeConnector1
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/Middle_Leg_R_Bar
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/Middle_Leg_R_Knee
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/Middle_Leg_R_KneeArmor
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddleLeg
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt
         weight: 1
@@ -2084,43 +633,15 @@ ModelImporter:
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Leg_R_PowerPoint1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_L_Bone1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_L_Hydraulic_Container1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_R_HeelArmorLower1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_R_HeellArmorUpper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/Lower_Leg_R_HydralicPipeConnector
-        weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Foot_Connector_R
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Foot_Connector_R/transform34
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Heel_R3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Heel_R4
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_Foot
         weight: 1
       - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/R_ToeJnt
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Toe_R1
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_LowerLeg
         weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_MiddlelegJnt/R_MiddlelegconnJnt/R_LowerlegJnt/R_FootJnt/Toe_R2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R1
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R2
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R3
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/Upper_Leg_R_ThighArmorUpper
-        weight: 1
-      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/UpperLeg_R_to_LowerLeg_R_Joint
+      - path: Body_Controller/transform37/HipJnt/R_UpperlegJnt/R_Upper_Leg
         weight: 1
       - path: curve1
         weight: 1
@@ -2133,22 +654,6 @@ ModelImporter:
       - path: L_Foot_Controller/nurbsCircle4
         weight: 1
       - path: L_Foot_Controller/nurbsCircle4/ikHandle5
-        weight: 1
-      - path: Leg_Upper_R_UpperArmor2
-        weight: 1
-      - path: Leg_Upper_R_UpperArmor2/transform28
-        weight: 1
-      - path: polySurface11
-        weight: 1
-      - path: polySurface11/transform29
-        weight: 1
-      - path: polySurface12
-        weight: 1
-      - path: polySurface12/transform30
-        weight: 1
-      - path: polySurface13
-        weight: 1
-      - path: polySurface13/transform31
         weight: 1
       - path: R_Foot_Controller
         weight: 1
@@ -2195,7 +700,7 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: HipJnt
+    rootMotionBoneName: Hip
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   additionalBone: 0

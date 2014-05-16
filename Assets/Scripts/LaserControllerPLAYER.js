@@ -4,10 +4,14 @@ var laserspeed:int;
 var damageenemy1laser:int;
 var damageenemy2laser:int;
 var points:int;
+var waitTime:int = 2;
+
+var healthScript:GameObjectController;
 
 function Start () {
 
-
+	yield StartCoroutine("OnCollisionEnter");
+	
 }
 
 function Update () {
@@ -56,11 +60,12 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 	if(coll.gameObject.tag == "crate")
 	{
 	GameObject.Destroy(coll.gameObject);
+	yield WaitForSeconds(2);
 	GameObject.Destroy(this.gameObject);
 	
+	healthScript.health = healthScript.health + 5;
 	//do Powerup
-	var cratepoints:GameObjectController = gameObject.GetComponent(GameObjectController);
-	cratepoints.ReceivePoints(points);
+
 	}
 	
 		if(coll.gameObject.tag == "cratespecial")

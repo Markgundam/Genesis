@@ -5,6 +5,7 @@ var damageenemy1rail:int;
 var damageenemy2rail:int;
 var points:int;
 
+
 function Start () {
 
 
@@ -59,8 +60,9 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 	GameObject.Destroy(this.gameObject);
 	
 	//do Powerup
-	var cratepoints:GameObjectController = gameObject.GetComponent(GameObjectController);
-	cratepoints.ReceivePoints(points);
+	
+	//var cratepoints:GameObjectController = gameObject.GetComponent(GameObjectController);
+	//cratepoints.ReceivePoints(points);
 	}
 	
 		if(coll.gameObject.tag == "cratespecial")

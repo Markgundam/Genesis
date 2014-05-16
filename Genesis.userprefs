@@ -1,6 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Shoot.js">
+    <Files>
+      <File FileName="Assets\Scripts\GameObjectController.js" Line="5" Column="18" />
+      <File FileName="Assets\Scripts\LaserControllerENEMY.js" Line="41" Column="1" />
+      <File FileName="Assets\Scripts\LaserControllerPLAYER.js" Line="63" Column="2" />
+      <File FileName="Assets\Scripts\Shoot.js" Line="229" Column="22" />
+      <File FileName="Assets\Scripts\GatlingControllerPLAYER.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RailControllerPLAYER.js" Line="63" Column="2" />
+      <File FileName="Assets\Scripts\CarrierEnemy.js" Line="68" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

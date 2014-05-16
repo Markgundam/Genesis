@@ -59,8 +59,8 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 	GameObject.Destroy(this.gameObject);
 	
 	//do Powerup
-	var cratepoints:GameObjectController = gameObject.GetComponent(GameObjectController);
-	cratepoints.ReceivePoints(points);
+	//var cratepoints:GameObjectController = gameObject.GetComponent(GameObjectController);
+	//cratepoints.ReceivePoints(points);
 	}
 	
 		if(coll.gameObject.tag == "cratespecial")

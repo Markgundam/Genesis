@@ -3,14 +3,10 @@
 var laserspeed:int;
 var damageenemy1laser:int;
 var damageenemy2laser:int;
-var points:int;
-var waitTime:int = 2;
 
-var healthScript:GameObjectController;
+var CanDieScript:GameObject;
 
 function Start () {
-
-	yield StartCoroutine("OnCollisionEnter");
 	
 }
 
@@ -59,23 +55,40 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 		
 	if(coll.gameObject.tag == "crate")
 	{
-	GameObject.Destroy(coll.gameObject);
-	yield WaitForSeconds(2);
-	GameObject.Destroy(this.gameObject);
 	
-	healthScript.health = healthScript.health + 5;
-	//do Powerup
+	GameObjectController.Points = GameObjectController.Points +2;
+	GameObject.Destroy(coll.gameObject);
+	GameObject.Destroy(this.gameObject);
 
 	}
 	
-		if(coll.gameObject.tag == "cratespecial")
+	if(coll.gameObject.tag == "cratespecial")
 	{
+	GameObjectController.PubHealth = GameObjectController.PubHealth +5;
 	GameObject.Destroy(coll.gameObject);
 	GameObject.Destroy(this.gameObject);
-	
-	//do Powerup
 	}
-
 	
+	if(coll.gameObject.tag == "crateinvincibility")
+	{
+	//Add Invincibility code
+	//CanDie from GameObjectController = false
+	//CanDieScript.GetComponent(GameObjectController).CanDie = false;
+	
+		//if(time == 3)
+		//{
+			//CanDieScript.GetComponent(GameObjectController).CanDie = true;
+			GameObject.Destroy(coll.gameObject);
+			GameObject.Destroy(this.gameObject);
+		//}
+	}
+	
+	if(coll.gameObject.tag == "cratemorelasers")
+	{
+	//Add more lasers code
+	
+	GameObject.Destroy(coll.gameObject);
+	GameObject.Destroy(this.gameObject);
+	}
 
 }

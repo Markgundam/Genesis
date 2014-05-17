@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 433b32c1ec5863a47b75c8a541931496
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: explosion_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 271
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 268
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 265
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 263
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 261
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 196
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 195
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 195
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 194
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 194
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 130
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 130
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 130
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 113
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 94
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 8
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: explosion_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 12
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

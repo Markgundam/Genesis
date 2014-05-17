@@ -56,23 +56,35 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 		
 	if(coll.gameObject.tag == "crate")
 	{
+	
+	GameObjectController.Points = GameObjectController.Points +2;
 	GameObject.Destroy(coll.gameObject);
+	//yield WaitForSeconds(2);
 	GameObject.Destroy(this.gameObject);
-	
-	//do Powerup
-	
-	//var cratepoints:GameObjectController = gameObject.GetComponent(GameObjectController);
-	//cratepoints.ReceivePoints(points);
+
 	}
 	
 		if(coll.gameObject.tag == "cratespecial")
 	{
+	GameObjectController.PubHealth = GameObjectController.PubHealth +5;
 	GameObject.Destroy(coll.gameObject);
 	GameObject.Destroy(this.gameObject);
-	
-	//do Powerup
-	}
 
+	}
+	
+	if(coll.gameObject.tag == "crateinvincibility")
+	{
+	//Add Invincibility code
+	GameObject.Destroy(coll.gameObject);
+	GameObject.Destroy(this.gameObject);
+	}
+	
+	if(coll.gameObject.tag == "cratemorelasers")
+	{
+	//Add more lasers code
+	GameObject.Destroy(coll.gameObject);
+	GameObject.Destroy(this.gameObject);
+	}
 	
 
 }

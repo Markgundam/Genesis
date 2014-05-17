@@ -32,6 +32,14 @@ var gatlingbullet:AudioSource;
 var skin:GUISkin;
 var ChargePerc:int;
 
+var laserbool:boolean; 
+var gatlingbool:boolean;
+var railbool:boolean; 
+
+var laserGUI:Texture;
+var gatlingGUI:Texture;
+var railGUI:Texture;
+
 
 function Start () {
 	//Initialize Stuff
@@ -39,6 +47,9 @@ function Start () {
 	reloadLeft = 0f;
 	weaponselect = 1;
 	
+	laserbool = false;
+	gatlingbool = false;
+	railbool = false;
 }
 
 function Update () {
@@ -70,6 +81,10 @@ function Update () {
 	{
 	
 	case 3:
+	
+	railbool = true;
+	gatlingbool = false;
+	laserbool = false;
 	
 		//show Rail, hide Gatling and Laser
 		for(var r:MeshRenderer in weapon1)
@@ -126,7 +141,6 @@ function Update () {
 						}else{
 						}
 						
-						var raillaser:LaserControllerPLAYER = rail.GetComponent(LaserControllerPLAYER); //Get the LaserController Component (Script)
 						laserdamage = laserdamage + chargedmg; //Add laser damage + charge
 						chargeraildmg = 0f; //Reset Charge
 						reloadLeft = reloadTime; //Set the reload timer
@@ -139,6 +153,10 @@ function Update () {
 	
 	
 	case 2:
+	
+	gatlingbool = true;
+	railbool = false;
+	laserbool = false;
 	
 		//show Gatling, hide Laser and Rail
 		for(var r:MeshRenderer in weapon1)
@@ -179,6 +197,10 @@ function Update () {
 	
 	
 	case 1:
+	
+	railbool = false;
+	gatlingbool = false;
+	laserbool = true;
 	
 	//show Laser, hide Gatling and Rail
 	
@@ -252,6 +274,21 @@ function OnGUI()
 	if(showPerc == true)
 	{
 	GUI.skin = skin;
-    GUI.Label(Rect (20,50,200,40), "Charge: " + ChargePerc + "%");
+    GUI.Label(Rect (20,80,200,40), "Charge: " + ChargePerc + "%");
+    }
+        
+    if(laserbool == true)
+    {
+    	GUI.DrawTexture(new Rect(1500, 20, 146, 242), laserGUI);
+    }
+    
+    if(gatlingbool == true)
+    {
+   		GUI.DrawTexture(new Rect(1500, 20, 146, 242), gatlingGUI);
+    }
+    
+    if(railbool == true)
+    {
+    	GUI.DrawTexture(new Rect(1500, 20, 146, 242), railGUI);
     }
 }

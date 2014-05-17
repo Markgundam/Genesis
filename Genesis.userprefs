@@ -1,14 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Shoot.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameObjectController.js">
     <Files>
-      <File FileName="Assets\Scripts\GameObjectController.js" Line="5" Column="18" />
-      <File FileName="Assets\Scripts\LaserControllerENEMY.js" Line="41" Column="1" />
-      <File FileName="Assets\Scripts\LaserControllerPLAYER.js" Line="63" Column="2" />
-      <File FileName="Assets\Scripts\Shoot.js" Line="229" Column="22" />
+      <File FileName="Assets\Scripts\DetectScript.js" Line="7" Column="4" />
+      <File FileName="Assets\Scripts\TurretEnemy.js" Line="39" Column="4" />
+      <File FileName="Assets\Scripts\LaserControllerENEMY.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LaserControllerPLAYER.js" Line="67" Column="2" />
       <File FileName="Assets\Scripts\GatlingControllerPLAYER.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RailControllerPLAYER.js" Line="63" Column="2" />
-      <File FileName="Assets\Scripts\CarrierEnemy.js" Line="68" Column="28" />
+      <File FileName="Assets\Scripts\RailControllerPLAYER.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CarrierEnemy.js" Line="39" Column="12" />
+      <File FileName="Assets\Scripts\GameObjectController.js" Line="68" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

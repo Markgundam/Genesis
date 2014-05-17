@@ -8,6 +8,8 @@ var moving : boolean = false;
 var target : Transform; //Through inspector
 var turret : Transform;
 
+var explosion:Rigidbody;
+
 var smoothTime = 0.5f;
 var xOffset : float = 0.2f;
 var yOffset : float = 0f;
@@ -79,6 +81,7 @@ function ReduceHealth(damageenemy1laser:int)
 	Debug.Log(health);
 	if(health <= 0)
 	{
+		GameObjectController.Points = GameObjectController.Points +10;
 		GameObject.Destroy(this.gameObject);
 	}
 }
@@ -90,6 +93,7 @@ function ReduceHealth2(damageenemy1gatling:int)
 	Debug.Log(health);
 	if(health <= 0)
 	{
+		GameObjectController.Points = GameObjectController.Points +10;
 		GameObject.Destroy(this.gameObject);
 	}
 }
@@ -101,6 +105,9 @@ function ReduceHealth3(damageenemy1rail:int)
 	Debug.Log(health);
 	if(health <= 0)
 	{
-		GameObject.Destroy(this.gameObject);
+		Instantiate (explosion, this.transform.position, this.transform.rotation);
+		GameObjectController.Points = GameObjectController.Points +10;
+		//GameObject.Destroy(this.gameObject);
+		
 	}
 }

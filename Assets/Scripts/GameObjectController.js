@@ -2,7 +2,10 @@
 
 var grounded:boolean;
 var charspeed:int;
-var health:float;
+var health:int;
+var maxhealth:int;
+var receivedhealth:int;
+static var PubHealth:int;
 
 var localScale: Vector3;
 
@@ -16,11 +19,19 @@ var boom:boolean = true;
 var renderers:MeshRenderer[];
 var totalpoints:int;
 
+static var Points:int;
+var CurrentPoints:int;
+
 var movement:AudioSource;
 
 var CanDie:boolean = true;
 
 var skin:GUISkin;
+
+function Start()
+{
+		
+}
 
 function OnCollisionEnter(c:Collision)
 {
@@ -56,6 +67,15 @@ function OnCollisionExit(c:Collision)
 }
 
 function Update () {
+
+	if(PubHealth != 0)
+	{
+	CurrentPoints = Points;
+	receivedhealth = receivedhealth + PubHealth;
+	health = health + PubHealth;
+	PubHealth = 0;
+	}
+	
 
 		horPower = Input.GetAxis("Horizontal");
 		
@@ -113,7 +133,7 @@ function OnGUI()
 {
 	GUI.skin = skin;
     GUI.Label(Rect (20,20,200,40), "Health: " + health);
-    GUI.Label(Rect (20,50,200,40), "Charge: " + ChargePerc + "%");
+	GUI.Label(Rect (20,50,200,40), "Points: " + Points);
 }
 
 function ReduceHealth(damageplayer:int)

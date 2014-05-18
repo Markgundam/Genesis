@@ -3,6 +3,7 @@
 var laserspeed:int;
 var damageenemy1gatling:int;
 var damageenemy2gatling:int;
+var damageenemy3gatling:int;
 var points:int;
 
 function Start () {
@@ -43,6 +44,13 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 		{
 			var gatlingenemy2:TurretEnemy = coll.gameObject.GetComponent(TurretEnemy);
 			gatlingenemy2.ReduceHealth2(damageenemy2gatling);
+			GameObject.Destroy(this.gameObject);
+		}
+		
+		if(coll.gameObject.tag == "bossenemy")
+		{
+			var laserenemy3:BossEnemy = coll.gameObject.GetComponent(BossEnemy);
+			laserenemy3.ReduceHealth3(damageenemy3gatling);
 			GameObject.Destroy(this.gameObject);
 		}
 	

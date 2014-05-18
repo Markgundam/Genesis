@@ -3,6 +3,7 @@
 var laserspeed:int;
 var damageenemy1laser:int;
 var damageenemy2laser:int;
+var damageenemy3laser:int;
 
 var CanDieScript:GameObject;
 
@@ -43,6 +44,13 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 		{
 			var laserenemy2:TurretEnemy = coll.gameObject.GetComponent(TurretEnemy);
 			laserenemy2.ReduceHealth(damageenemy2laser);
+			GameObject.Destroy(this.gameObject);
+		}
+		
+		if(coll.gameObject.tag == "bossenemy")
+		{
+			var laserenemy3:BossEnemy = coll.gameObject.GetComponent(BossEnemy);
+			laserenemy3.ReduceHealth(damageenemy3laser);
 			GameObject.Destroy(this.gameObject);
 		}
 	

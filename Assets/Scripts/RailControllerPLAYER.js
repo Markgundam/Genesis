@@ -3,6 +3,8 @@
 var laserspeed:int;
 var damageenemy1rail:int;
 var damageenemy2rail:int;
+var damageenemy3rail:int;
+
 var points:int;
 
 
@@ -44,6 +46,13 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 		{
 			var railenemy2:TurretEnemy = coll.gameObject.GetComponent(TurretEnemy);
 			railenemy2.ReduceHealth3(damageenemy2rail);
+			GameObject.Destroy(this.gameObject);
+		}
+		
+		if(coll.gameObject.tag == "bossenemy")
+		{
+			var laserenemy3:BossEnemy = coll.gameObject.GetComponent(BossEnemy);
+			laserenemy3.ReduceHealth3(damageenemy3rail);
 			GameObject.Destroy(this.gameObject);
 		}
 	

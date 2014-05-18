@@ -48,218 +48,209 @@ TextureImporter:
     - name: explosion_transparent_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 271
-        width: 35
-        height: 33
+        x: 0
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 268
-        width: 42
-        height: 39
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 265
-        width: 48
-        height: 45
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_3
       rect:
         serializedVersion: 2
-        x: 199
-        y: 263
-        width: 52
-        height: 48
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_4
       rect:
         serializedVersion: 2
-        x: 262
-        y: 261
-        width: 55
-        height: 52
+        x: 256
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_5
       rect:
         serializedVersion: 2
-        x: 4
-        y: 196
-        width: 59
-        height: 54
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_6
       rect:
         serializedVersion: 2
-        x: 68
-        y: 195
-        width: 60
-        height: 56
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_7
       rect:
         serializedVersion: 2
-        x: 131
-        y: 195
-        width: 61
-        height: 56
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_8
       rect:
         serializedVersion: 2
-        x: 194
-        y: 194
-        width: 62
-        height: 58
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_9
       rect:
         serializedVersion: 2
-        x: 258
-        y: 194
-        width: 62
-        height: 58
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_10
       rect:
         serializedVersion: 2
-        x: 2
-        y: 130
-        width: 62
-        height: 57
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_11
       rect:
         serializedVersion: 2
-        x: 66
-        y: 130
-        width: 62
-        height: 58
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_12
       rect:
         serializedVersion: 2
-        x: 130
-        y: 130
-        width: 62
-        height: 58
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_13
       rect:
         serializedVersion: 2
-        x: 194
-        y: 130
-        width: 62
-        height: 58
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_14
       rect:
         serializedVersion: 2
-        x: 258
-        y: 130
-        width: 62
-        height: 58
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_15
       rect:
         serializedVersion: 2
-        x: 2
-        y: 66
-        width: 62
-        height: 58
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_16
       rect:
         serializedVersion: 2
-        x: 66
-        y: 66
-        width: 62
-        height: 58
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_17
       rect:
         serializedVersion: 2
-        x: 132
-        y: 66
-        width: 59
-        height: 58
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_18
       rect:
         serializedVersion: 2
-        x: 238
-        y: 113
-        width: 11
-        height: 6
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_19
       rect:
         serializedVersion: 2
-        x: 304
-        y: 113
-        width: 6
-        height: 6
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_20
       rect:
         serializedVersion: 2
-        x: 310
-        y: 94
-        width: 8
-        height: 13
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_21
       rect:
         serializedVersion: 2
-        x: 9
-        y: 3
-        width: 48
-        height: 53
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: explosion_transparent_22
       rect:
         serializedVersion: 2
-        x: 77
-        y: 8
-        width: 40
-        height: 45
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: explosion_transparent_23
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 12
-        width: 24
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 

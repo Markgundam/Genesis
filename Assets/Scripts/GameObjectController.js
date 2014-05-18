@@ -22,8 +22,6 @@ var totalpoints:int;
 static var Points:int;
 var CurrentPoints:int;
 
-var movement:AudioSource;
-
 var CanDie:boolean = true;
 
 var skin:GUISkin;
@@ -144,7 +142,7 @@ function ReduceHealth(damageplayer:int)
 		var currenthealth = health;
 		if(health <= 0)
 		{
-			GameObject.Destroy(this.gameObject);
+			Application.LoadLevel(4);
 		}
 	}
 }

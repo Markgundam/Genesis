@@ -8,6 +8,8 @@ var moving : boolean = false;
 var target : Transform; //Through inspector
 var turret : Transform;
 
+var movementsound : AudioSource;
+
 var explosion:Rigidbody;
 
 var smoothTime = 0.5f;
@@ -37,16 +39,24 @@ function Update () {
 		{
 			moving = true;
 			anim.SetBool("move", true);
-
+			
 	        thisTransform.position.x = Mathf.Lerp( thisTransform.position.x, target.position.x - xOffset, Time.deltaTime * smoothTime);
 	 		thisTransform.position.y = Mathf.Lerp( thisTransform.position.y, target.position.y + yOffset, Time.deltaTime * smoothTime);
 		}
 		else
 		{
 		moving = false;
+		
 		anim.SetBool("move",false);
 		}
-		
+	}
+	
+	if(moving == true)
+	{
+	movementsound.Play();
+	}
+	else{
+	movementsound.Stop();
 	}
 	
 	if(this.transform.localScale.x == 1)
@@ -81,6 +91,7 @@ function ReduceHealth(damageenemy1laser:int)
 	Debug.Log(health);
 	if(health <= 0)
 	{
+		Instantiate (explosion, this.transform.position, this.transform.rotation);
 		GameObjectController.Points = GameObjectController.Points +10;
 		GameObject.Destroy(this.gameObject);
 	}
@@ -93,6 +104,7 @@ function ReduceHealth2(damageenemy1gatling:int)
 	Debug.Log(health);
 	if(health <= 0)
 	{
+		Instantiate (explosion, this.transform.position, this.transform.rotation);
 		GameObjectController.Points = GameObjectController.Points +10;
 		GameObject.Destroy(this.gameObject);
 	}
@@ -107,7 +119,7 @@ function ReduceHealth3(damageenemy1rail:int)
 	{
 		Instantiate (explosion, this.transform.position, this.transform.rotation);
 		GameObjectController.Points = GameObjectController.Points +10;
-		//GameObject.Destroy(this.gameObject);
+		GameObject.Destroy(this.gameObject);
 		
 	}
 }

@@ -14,7 +14,7 @@ function OnGUI ()
 {
 	GUI.skin = skinExit;
 	
-	if(GUI.Button(Rect(900,600,350,150), " "))
+	if(GUI.Button(Rect(1020,550,400,150), " "))
 	{
 		Application.Quit();
 	}

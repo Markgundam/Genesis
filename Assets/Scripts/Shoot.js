@@ -25,7 +25,6 @@ var weapon2:MeshRenderer[];
 var weapon3:MeshRenderer[];
 
 var laser:AudioSource;
-var charge:AudioSource;
 var explosion:AudioSource;
 var gatlingbullet:AudioSource;
 
@@ -50,6 +49,8 @@ function Start () {
 	laserbool = false;
 	gatlingbool = false;
 	railbool = false;
+	
+	//GetComponent(AudioSource) = charge;
 }
 
 function Update () {
@@ -107,6 +108,10 @@ function Update () {
 				
 				if(Input.GetMouseButton(0)) //LMB Hold
 				{
+				
+				//play charge audio
+				
+				
 				var tmpCharge2:float = chargeraildmg + (Time.deltaTime * 3);//Add charge at the rate of 3 per second
 				
 				if(showPerc == true)
@@ -271,24 +276,44 @@ function Update () {
 
 function OnGUI()
 {
+	GUI.Label(Rect(1550, 35, 200, 100), "Laser Gun");
+	GUI.Label(Rect(1550, 50, 200, 100), "LMB: 4");
+	GUI.Label(Rect(1550, 65, 200, 100), "Hold and Release LMB: 8");
+	
+	GUI.Label(Rect(1550, 125, 200, 100), "Gatling Gun");
+	GUI.Label(Rect(1550, 140, 200, 100), "Hold LMB: 2");
+	
+	GUI.Label(Rect(1550, 200, 200, 100), "Rail Gun");
+	GUI.Label(Rect(1550, 215, 200, 100), "Hold and Release LMB: 10");
+	
+	GUI.Label(Rect(50, 900, 200, 100), "Controls:");
+	GUI.Label(Rect(50, 915, 200, 100), "D - Move Right");
+	GUI.Label(Rect(50, 930, 200, 100), "A - Move Left");
+	GUI.Label(Rect(50, 945, 200, 100), "W - Jump");
+	GUI.Label(Rect(50, 960, 200, 100), "W + A/D + Right Click - Jet Boost");
+	GUI.Label(Rect(50, 975, 200, 100), "Left Click - Shoot");
+	GUI.Label(Rect(50, 990, 200, 100), "Alt - Switch weapons");
+	GUI.Label(Rect(50, 1005, 200, 100), "Escape - Pause");
+	
 	if(showPerc == true)
 	{
 	GUI.skin = skin;
-    GUI.Label(Rect (20,80,200,40), "Charge: " + ChargePerc + "%");
+    GUI.Label(Rect (50,100,200,40), "Charge: " + ChargePerc + "%");
     }
         
     if(laserbool == true)
     {
-    	GUI.DrawTexture(new Rect(1500, 20, 146, 242), laserGUI);
+    	GUI.DrawTexture(new Rect(1750, 20, 146, 242), laserGUI);
+    	
     }
     
     if(gatlingbool == true)
     {
-   		GUI.DrawTexture(new Rect(1500, 20, 146, 242), gatlingGUI);
+   		GUI.DrawTexture(new Rect(1750, 20, 146, 242), gatlingGUI);
     }
     
     if(railbool == true)
     {
-    	GUI.DrawTexture(new Rect(1500, 20, 146, 242), railGUI);
+    	GUI.DrawTexture(new Rect(1750, 20, 146, 242), railGUI);
     }
 }

@@ -39,7 +39,7 @@ function Update () {
 		{
 			moving = true;
 			anim.SetBool("move", true);
-			
+			movementsound.Play();
 	        thisTransform.position.x = Mathf.Lerp( thisTransform.position.x, target.position.x - xOffset, Time.deltaTime * smoothTime);
 	 		thisTransform.position.y = Mathf.Lerp( thisTransform.position.y, target.position.y + yOffset, Time.deltaTime * smoothTime);
 		}
@@ -51,13 +51,6 @@ function Update () {
 		}
 	}
 	
-	if(moving == true)
-	{
-	movementsound.Play();
-	}
-	else{
-	movementsound.Stop();
-	}
 	
 	if(this.transform.localScale.x == 1)
 	{

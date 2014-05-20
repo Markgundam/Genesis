@@ -8,13 +8,6 @@ var points:int;
 
 function Start () {
 
-
-}
-
-function Update () {
-	
-	transform.Translate(Vector3.up * 50 * Time.deltaTime);
-	
 	if(GameObject.FindGameObjectWithTag("Player").transform.localScale.x == 1)
 	{	
 		this.transform.rotation = Quaternion.Euler(90,90,0);
@@ -23,6 +16,13 @@ function Update () {
 	{
 		this.transform.rotation = Quaternion.Euler(270,90,0);
 	}
+}
+
+function Update () {
+	
+	transform.Translate(Vector3.up * 50 * Time.deltaTime);
+	
+	
 	
 }
 

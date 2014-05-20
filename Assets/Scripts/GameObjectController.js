@@ -6,8 +6,11 @@ var health:int;
 var maxhealth:int;
 var receivedhealth:int;
 static var PubHealth:int;
+var escape:boolean;
 
 var localScale: Vector3;
+
+var pause:GameObject;
 
 var horPower: float;
 
@@ -28,16 +31,11 @@ var skin:GUISkin;
 
 function Start()
 {
-		
+		escape = true;
 }
 
 function OnCollisionEnter(c:Collision)
 {
-	if(c.gameObject.tag == "platform")
-	{
-		grounded = true;
-	}
-	
 	if(CanDie == true)
 	{
 		if(c.gameObject.tag == "carrierenemy")
@@ -56,6 +54,15 @@ function OnCollisionEnter(c:Collision)
 	
 }
 
+function OnCollisionStay(c:Collision)
+{
+	if(c.gameObject.tag == "platform")
+	{
+		grounded = true;
+	}
+}
+
+
 function OnCollisionExit(c:Collision)
 {
 	if(c.gameObject.tag == "platform")
@@ -73,7 +80,11 @@ function Update () {
 	health = health + PubHealth;
 	PubHealth = 0;
 	}
-	
+
+	if(grounded == true)
+	{
+	//this.transform.position.y = 0.001;
+	}	
 
 		horPower = Input.GetAxis("Horizontal");
 		
@@ -97,19 +108,33 @@ function Update () {
 			anim.SetBool("walk", false);;
 		}
 		
-		rigidbody.AddForce(Vector3(0,-10,0)); //gravity?
+		rigidbody.AddForce(Vector3(0,-15,0)); //gravity?
 
 	
 	if(grounded == true && Input.GetKeyDown(KeyCode.W) || grounded == true && Input.GetKeyDown(KeyCode.UpArrow))
 	{
 		//jump
 		rigidbody.AddForce(Vector3(0,500,0));
-		
 	}
 	
-	
-	
-	
+	if(escape == false)
+	{
+		if(Input.GetKeyDown(KeyCode.Escape))
+		{
+			Debug.Log("escape false");
+			Time.timeScale = 1;
+			GameObject.Destroy(GameObject.FindGameObjectWithTag("pause"));
+			escape = true;
+		}
+	}
+	else if(Input.GetKeyDown(KeyCode.Escape))
+	{
+			Debug.Log("escape true");
+			Time.timeScale = 0;
+			Instantiate(pause, GameObject.FindGameObjectWithTag("MainCamera").transform.position, GameObject.FindGameObjectWithTag("MainCamera").transform.rotation);
+			escape = false;
+			
+	}
 	
 	//BOOST CONTROL
 
@@ -130,8 +155,8 @@ function Update () {
 function OnGUI()
 {
 	GUI.skin = skin;
-    GUI.Label(Rect (20,20,200,40), "Health: " + health);
-	GUI.Label(Rect (20,50,200,40), "Points: " + Points);
+    GUI.Label(Rect (50,35,200,40), "Health: " + health);
+	GUI.Label(Rect (50,60,200,40), "Points: " + Points);
 }
 
 function ReduceHealth(damageplayer:int)

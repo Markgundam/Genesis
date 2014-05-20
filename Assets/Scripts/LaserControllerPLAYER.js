@@ -5,15 +5,7 @@ var damageenemy1laser:int;
 var damageenemy2laser:int;
 var damageenemy3laser:int;
 
-var CanDieScript:GameObject;
-
 function Start () {
-	
-}
-
-function Update () {
-	
-	transform.Translate(Vector3.up * 50 * Time.deltaTime);
 	
 	if(GameObject.FindGameObjectWithTag("Player").transform.localScale.x == 1)
 	{	
@@ -23,6 +15,12 @@ function Update () {
 	{
 		this.transform.rotation = Quaternion.Euler(270,90,0);
 	}
+}
+
+function Update () {
+	
+	transform.Translate(Vector3.up * 50 * Time.deltaTime);
+	
 	
 }
 
@@ -53,50 +51,28 @@ Debug.Log(this.gameObject.tag + "  " + coll.gameObject.tag);
 			laserenemy3.ReduceHealth(damageenemy3laser);
 			GameObject.Destroy(this.gameObject);
 		}
-	
-	}	
 		
-	if(coll.gameObject.tag == "platform")
-	{
-		GameObject.Destroy(this.gameObject);
-	}
-		
-	if(coll.gameObject.tag == "crate")
-	{
-	
-	GameObjectController.Points = GameObjectController.Points +2;
-	GameObject.Destroy(coll.gameObject);
-	GameObject.Destroy(this.gameObject);
-
-	}
-	
-	if(coll.gameObject.tag == "cratespecial")
-	{
-	GameObjectController.PubHealth = GameObjectController.PubHealth +5;
-	GameObject.Destroy(coll.gameObject);
-	GameObject.Destroy(this.gameObject);
-	}
-	
-	if(coll.gameObject.tag == "crateinvincibility")
-	{
-	//Add Invincibility code
-	//CanDie from GameObjectController = false
-	//CanDieScript.GetComponent(GameObjectController).CanDie = false;
-	
-		//if(time == 3)
-		//{
-			//CanDieScript.GetComponent(GameObjectController).CanDie = true;
-			GameObject.Destroy(coll.gameObject);
+		if(coll.gameObject.tag == "platform")
+		{
 			GameObject.Destroy(this.gameObject);
-		//}
-	}
-	
-	if(coll.gameObject.tag == "cratemorelasers")
-	{
-	//Add more lasers code
-	
-	GameObject.Destroy(coll.gameObject);
-	GameObject.Destroy(this.gameObject);
-	}
+		}
+			
+		if(coll.gameObject.tag == "crate")
+		{
+		
+		GameObjectController.Points = GameObjectController.Points +2;
+		GameObject.Destroy(coll.gameObject);
+		GameObject.Destroy(this.gameObject);
+
+		}
+		
+		if(coll.gameObject.tag == "cratespecial")
+		{
+		GameObjectController.PubHealth = GameObjectController.PubHealth +5;
+		GameObject.Destroy(coll.gameObject);
+		GameObject.Destroy(this.gameObject);
+		}
+		
+		}		
 
 }

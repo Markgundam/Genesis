@@ -13,7 +13,7 @@ function OnGUI () {
 	
 	GUI.skin = skinplay;
 	
-	if (GUI.Button (Rect (900,600,350,150), " ")) 
+	if (GUI.Button (Rect (760,800,400,150), " ")) 
 	{
 		
 	}	

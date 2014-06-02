@@ -2,7 +2,7 @@
 
 var grounded:boolean;
 var charspeed:int;
-var health:float;
+var health : float = 5.00;
 
 function OnCollisionEnter(c:Collision)
 {

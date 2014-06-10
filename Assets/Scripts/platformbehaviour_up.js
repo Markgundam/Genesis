@@ -8,7 +8,7 @@ var loc2:float;
 function Start () {
 
 	movingUp = true;
-	spd = 0.5;
+	spd = 0.3;
 }
 
 function Update () {

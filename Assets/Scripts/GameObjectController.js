@@ -40,7 +40,7 @@ function OnCollisionEnter(c:Collision)
 	{
 		if(c.gameObject.tag == "carrierenemy")
 		{
-			health = health - 1;
+			health = health - 2;
 			hit();
 			
 		}
